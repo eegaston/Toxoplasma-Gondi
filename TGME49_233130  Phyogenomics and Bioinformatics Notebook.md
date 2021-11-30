@@ -74,10 +74,8 @@ Protozoans genes were compared to TGME49_233130 by preforming a local alignment 
 		68. TevSTIB805.9.11320 Trypanosoma evansi strain STIB 805 nucleoside transporter 1, putative : Evalue= 1E-5
 		69. Tb927.9.15980 Trypanosoma brucei brucei TREU927 nucleoside transporter 1, putative: Evalue= 1E-5
 		70. Tb09.v4.0106  Trypanosoma brucei brucei TREU927 nucleoside transporter 1, putative : Evalue= 2E-5
->Tb427_020032300  | Trypanosoma brucei Lister strain 427 2018 | Nucleoside transporter, putative | protein | length=463
-
-	5E-5
->TcCL_ESM01314 Trypanosoma cruzi strain CL putative nucleoside transporter-like : Evalue= 6E-5
+		71. Tb427_020032300 Trypanosoma brucei Lister strain 427 2018 Nucleoside transporter, putative: Evalue= 5E-5
+		72. TcCL_ESM01314 Trypanosoma cruzi strain CL putative nucleoside transporter-like : Evalue= 6E-5
 
 # Phylogenetic Analysis Code
       Mkdir TGME49233130
