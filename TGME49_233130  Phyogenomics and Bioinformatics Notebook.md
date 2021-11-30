@@ -48,56 +48,22 @@ Protozoans genes were compared to TGME49_233130 by preforming a local alignment 
       43. SRCN_1080 Sarcocystis neurona SO SN1 unspecified product : Evalue= 3E-22
       44. NCLIV_041010 Neospora caninum Liverpool conserved hypothetical protein: Evalue= 6E-21
       45. TGRUB_288540B Toxoplasma gondii RUB nucleoside transporter protein : Evalue= 3E-21
-      
->HHA_288540  | Hammondia hammondi strain H.H.34 | nucleoside transporter protein | protein | length=697
+      46. HHA_288540 Hammondia hammondi strain H.H.34 nucleoside transporter proteins : Evalue= 2E-20
+      47. Ncaninum_LIV_000215200 Neospora caninum Liverpool 2019 ribosomal RNA small subunit methyltransferase F(RRNA(Cytosine-C)), related: Evalue= 2E-20
+      48. ENH_00012770 Eimeria necatrix Houghton hypothetical protein, conserved: Evalue= 5E-17
+      49. ETH_00004635 Eimeria tenella strain Houghton hypothetical protein, conserved: Evalue= 6E-17
+      50. EBH_0062530 Eimeria brunetti Houghton hypothetical protein, conserved: Evalue= 2E-15
+      51. PVSEL_0500770 Plasmodium vinckei Cameroon EL Nucleoside transporter 1, putative : Evalue= 3E-15
+      52. PVPCR_0500780 Plasmodium vinckei petteri CR 2020 Nucleoside transporter 1, putative : Evalue= 3E-15
+      53. YYG_03197 Plasmodium vinckei petteri strain CR hypothetical protein: Evalue= 3E-15
+      54. PVLDE_1306780 Plasmodium vinckei lentum DE Nucleoside transporter 1, putative: Evalue= 3E-218E-15
+      55. PY17X_1365800 Plasmodium yoelii yoelii 17X nucleoside transporter 1: Evalue= 2E-14
+      56. PYYM_1362200 Plasmodium yoelii yoelii YM nucleoside transporter 1 : Evalue= 2E-14
+      57. PVVCY_1306320 Plasmodium vinckei vinckei CY Nucleoside transporter 1, putative: Evalue= 4E-14
+      58. YYE_00618 Plasmodium vinckei vinckei strain vinckei hypothetical protein: Evalue= 4E-14
+      59. PBANKA_1360100 Plasmodium berghei ANKA nucleoside transporter 1 : Evalue= 2E-13
+      60. PocGH01_12015900 Plasmodium ovale curtisi GH01 nucleoside transporter 1, putative: Evalue= 2E-11
 
-	2E-20
->Ncaninum_LIV_000215200  | Neospora caninum Liverpool 2019 | ribosomal RNA small subunit methyltransferase F (RRNA(Cytosine-C)), related | protein | length=1473
-
-	2E-20
->ENH_00012770  | Eimeria necatrix Houghton | hypothetical protein, conserved | protein | length=645
-
-5E-17
-
->ETH_00004635  | Eimeria tenella strain Houghton | hypothetical protein, conserved | protein | length=679
-
-	6E-17
->EBH_0062530  | Eimeria brunetti Houghton | hypothetical protein, conserved | protein | length=642
-
-	2E-15
->PVSEL_0500770  | Plasmodium vinckei Cameroon EL | Nucleoside transporter 1, putative [Source:UniProtKB/TrEMBL;Acc:A0A6V7SHU8] | protein | length=412
-
-	3E-15
->PVPCR_0500780  | Plasmodium vinckei petteri CR 2020 | Nucleoside transporter 1, putative [Source:UniProtKB/TrEMBL;Acc:W7AJ65] | protein | length=412
-
-3E-15
->YYG_03197  | Plasmodium vinckei petteri strain CR | hypothetical protein | protein | length=412
-
-	3E-15
->PVLDE_1306780  | Plasmodium vinckei lentum DE | Nucleoside transporter 1, putative [Source:UniProtKB/TrEMBL;Acc:A0A6V7SU57] | protein | length=413
-
-	8E-15
->PY17X_1365800  | Plasmodium yoelii yoelii 17X | nucleoside transporter 1 | protein | length=414
-
-2E-14
-
->PYYM_1362200  | Plasmodium yoelii yoelii YM | nucleoside transporter 1 | protein | length=414
-
-2E-14
-
->PVVCY_1306320  | Plasmodium vinckei vinckei CY | Nucleoside transporter 1, putative [Source:UniProtKB/TrEMBL;Acc:A0A449BZ88] | protein | length=414
-
-4E-14
-
->YYE_00618  | Plasmodium vinckei vinckei strain vinckei | hypothetical protein | protein | length=414
-
-	4E-14
->PBANKA_1360100  | Plasmodium berghei ANKA | nucleoside transporter 1 | protein | length=412
-
-2E-13
->PocGH01_12015900  | Plasmodium ovale curtisi GH01 | nucleoside transporter 1, putative | protein | length=417
-
-	2E-11
 >PVBDA_1306550  | Plasmodium vinckei brucechwatti DA | Nucleoside transporter 1, putative [Source:UniProtKB/TrEMBL;Acc:A0A6V7SSU3] | protein | length=414
 
 	5E-11
@@ -133,9 +99,7 @@ Non apicomplexan specific BLAST
 >Tb427_020032300  | Trypanosoma brucei Lister strain 427 2018 | Nucleoside transporter, putative | protein | length=463
 
 	5E-5
->TcCL_ESM01314  | Trypanosoma cruzi strain CL | putative nucleoside transporter-like | protein | length=430
-
-	6E-5
+>TcCL_ESM01314 Trypanosoma cruzi strain CL putative nucleoside transporter-like : Evalue= 6E-5
 
 # Phylogenetic Analysis Code
       Mkdir TGME49233130
