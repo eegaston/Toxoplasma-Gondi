@@ -69,6 +69,7 @@ Results for Apicomplexan matches (matches with an E-value beloww E-10 where disr
       63. PRELSG_1250700 Plasmodium relictum SGS1-like nucleoside transporter 1, putative : Evalue= 2E-10
       64. PcyM_1209200 Plasmodium cynomolgi strain M nucleoside transporter 1, putative: Evalue= 5E-10
 Non-apicomplexan BLAST
+
 		65. TM35_000161950 Trypanosoma theileri isolate Edinburgh nucleoside transporter-like : Evalue= 4E-6
 		66. Tbg972.9.9940  Trypanosoma brucei gambiense DAL972 nucleoside transporter 1, putative : Evalue= 5E-6
 		67. Tb427_000750400 Trypanosoma brucei Lister strain 427 2018 Nucleoside transporter, putative : Evalue= 9E-6
