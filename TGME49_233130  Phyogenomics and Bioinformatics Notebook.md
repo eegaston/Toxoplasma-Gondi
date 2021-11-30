@@ -141,4 +141,72 @@ Non apicomplexan specific BLAST
       Mkdir TGME49233130
       cd TGME49233130 
       # Create Phylogenetic database
-            
+            # Phylogenomics database
+		#Toxoplasma gondii ME49 (reference genome)
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' TGME49_233130.fa > 				TGME49_233130_nucleoside_transporter_protein.fa
+			awk '/^>/{print ">Toxoplasma_gondii_ME49" ++i; next}{print}' 		
+				TGME49_233130_nucleoside_transporter_protein.fa > 
+				header_TGME49_233130_nucleoside_transporter_protein.fa
+		# HHA_233130 Hammondia hammondi strain H.H.34 nucleoside transporter protein: Evalue= 0
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' HHA_233130.fa > 				Hammondia_hammondi_nucleoside_transporter_protein.fa
+			awk '/^>/{print "> Hammondia_hammondi_nucleoside_transporter_protein" ++i; next}{print}' 					Hammondia_hammondi_nucleoside_transporter_protein.fa > 	  	
+				header_Hammondia_hammondi_nucleoside_transporter_protein.fa
+		# NCLIV_032940 Neospora caninum Liverpool putative adenosine transporter: Evalue= 0
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' NCLIV_032940.fa > 				Neospora_caninum_Liverpool_putative_adenosine_transporter.fa
+			awk '/^>/{print ">Hammondia_hammondi" ++i; next}{print}' 			
+				Neospora_caninum_Liverpool_putative_adenosine_transporter.fa > 		
+				header_Neospora_caninum_Liverpool_putative_adenosine_transporter.fa
+		# BESB_008590 Besnoitia besnoiti strain Bb-Ger1 unspecified product: Evalue= 0
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' BESB_008590.fa > 				Besnoitia_besnoiti_strain_Bb-Ger1_unspecified_product.fa
+			awk '/^>/{print "> Besnoitia_besnoiti_strain_Bb-Ger1_unspecified_product" ++i; next}{print}' 					Besnoitia_besnoiti_strain_Bb-Ger1_unspecified_product.fa > 	
+				header_Besnoitia_besnoiti_strain_Bb-Ger1_unspecified_product.fa
+		# CSUI_005052 Cystoisospora suis strain Wien I nucleoside transporter protein : Evalue= 2E-73
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' CSUI_005052.fa > 
+				Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein.fa
+			awk '/^>/{print "> Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein" ++i; 	
+				next}{print}' Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein.fa > 					header_Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein.fa
+		#TGME49_244440 Toxoplasma gondii ME49 nucleoside transporter protein: Evalue= 5E-67
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' TGME49_244440.fa > 				Toxoplasma_gondii_ME49_nucleoside_transporter_protein.fa
+			awk '/^>/{print "> Toxoplasma_gondii_ME49_nucleoside_transporter_protein" ++i; next}{print}' 					Toxoplasma_gondii_ME49_nucleoside_transporter_protein.fa > 		
+				header_Toxoplasma_gondii_ME49_nucleoside_transporter_protein.fa
+		# BESB_007550 Besnoitia besnoiti strain Bb-Ger1 unspecified product : Evalue= 6E-62
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' BESB_007550.fa > 				Besnoitia_besnoiti_strain_Bb-Ger1_unspecified_product.fa
+			awk '/^>/{print "> Besnoitia_besnoiti_strain_Bb-Ger1_unspecified_product" ++i; next}{print}' 					Besnoitia_besnoiti_strain_Bb-Ger1_unspecified_product.fa > 	
+				header_Besnoitia_besnoiti_strain_Bb-Ger1_unspecified_product.fa
+		# TGRUB_359630 Toxoplasma gondii RUB nucleoside transporter: Evalue= 2E-61
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' TGRUB_359630.fa > 				Toxoplasma_gondii_RUB_nucleoside_transporter.fa
+			awk '/^>/{print "> Toxoplasma_gondii_RUB_nucleoside_transporter" ++i; next}{print}' 		
+				Toxoplasma_gondii_RUB_nucleoside_transporter.fa > 
+				header_Toxoplasma_gondii_RUB_nucleoside_transporter.fa
+		# BESB_015060  Besnoitia besnoiti strain Bb-Ger1 unspecified product: Evalue= 7E-61
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' BESB_015060.fa > 				Besnoitia_besnoiti_strain_Bb-Ger1_unspecified_product.fa
+			awk '/^>/{print "> Besnoitia_besnoiti_strain_Bb-Ger1_unspecified_product" ++i; next}{print}' 					Besnoitia_besnoiti_strain_Bb-Ger1_unspecified_product.fa > 			
+				header_Besnoitia_besnoiti_strain_Bb-Ger1_unspecified_product.fa
+		# HHA_244440 Hammondia hammondi strain H.H.34 nucleoside transporter protein: Evalue= 1E-60
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' HHA_244440.fa > 				Hammondia_hammondi_strain_H.H.34_nucleoside_transporter_protein.fa
+			awk '/^>/{print ">Hammondia_hammondi_strain_H.H.34_nucleoside_transporter_protein " ++i; 					next}{print}' Hammondia_hammondi_strain_H.H.34_nucleoside_transporter_protein.fa > 					header_Hammondia_hammondi_strain_H.H.34_nucleoside_transporter_protein.fa
+		# CSUI_002055 Cystoisospora suis strain Wien I nucleoside transporter protein: Evalue= 4E-59
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' CSUI_002055.fa > 				Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein.fa
+			awk '/^>/{print "> Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein" ++i; 					next}{print}' Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein.fa > 					header_Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein.fa
+		#  NCLIV_019000 Neospora caninum Liverpool putative adenosine transporter: Evalue= 9E-58
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' NCLIV_019000.fa > 				Neospora_caninum_Liverpool_putative_adenosine_transporter.fa
+			awk '/^>/{print "> Neospora_caninum_Liverpool_putative_adenosine_transporter" ++i; next}{print}' 				Neospora_caninum_Liverpool_putative_adenosine_transporter.fa > 			
+				header_Neospora_caninum_Liverpool_putative_adenosine_transporter.fa
+		# Ncaninum_LIV_000577500 Neospora caninum Liverpool 2019 putative adenosine transporter: Evalue= 9E-58
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' 						Ncaninum_LIV_000577500.fa > 
+				Neospora_caninum_Liverpool_2019_putative_adenosine_transporter.fa
+			awk '/^>/{print ">Neospora_caninum_Liverpool_2019_putative_adenosine_transporter" ++i; next}{print}' 				Neospora_caninum_Liverpool_2019_putative_adenosine_transporter.fa > 
+				header_Neospora_caninum_Liverpool_2019_putative_adenosine_transporter.fa
+		# SN3_00701320 Sarcocystis neurona SN3 nucleoside transporter protein: Evalue= 2E-53
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' SN3_00701320.fa > 				Sarcocystis_neurona_SN3_nucleoside_transporter_protein.fa
+			awk '/^>/{print "> Sarcocystis_neurona_SN3_nucleoside_transporter_protein" ++i; next}{print}' 	
+				Sarcocystis_neurona_SN3_nucleoside_transporter_protein.fa > 		
+				header_Sarcocystis_neurona_SN3_nucleoside_transporter_protein.fa
+		# SRCN_6520 Sarcocystis neurona SO SN1 unspecified product: Evalue= 2E-53
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' SRCN_6520.fa > 				Sarcocystis_neurona_SO_SN1_unspecified_product.fa
+			awk '/^>/{print "> Sarcocystis_neurona_SO_SN1_unspecified_product" ++i; next}{print}' 						Sarcocystis_neurona_SO_SN1_unspecified_product.fa > 		
+				header_Sarcocystis_neurona_SO_SN1_unspecified_product.fa
+		# CSUI_008365 Cystoisospora suis strain Wien I nucleoside transporter protein: Evalue=5E-53
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' CSUI_008365.fa > 				Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein.fa
+			awk '/^>/{print "> Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein " ++i; 					next}{print}' Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein.fa > 	
+				header_Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein.fa
