@@ -85,139 +85,95 @@ Non-apicomplexan BLAST
       # Create Phylogenetic database
             # Phylogenomics database
 		#Toxoplasma gondii ME49 (reference genome)
-			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' TGME49_233130.fa > 				TGME49_233130_nucleoside_transporter_protein.fa
-			awk '/^>/{print ">Toxoplasma_gondii_ME49" ++i; next}{print}' 		
-				TGME49_233130_nucleoside_transporter_protein.fa > 
-				header_TGME49_233130_nucleoside_transporter_protein.fa
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' TGME49_233130.fa > TGME49_233130_nucleoside_transporter_protein.fa
+			awk '/^>/{print ">Toxoplasma_gondii_ME49" ++i; next}{print}' TGME49_233130_nucleoside_transporter_protein.fa > header_TGME49_233130_nucleoside_transporter_protein.fa
 		# HHA_233130 Hammondia hammondi strain H.H.34 nucleoside transporter protein: Evalue= 0
-			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' HHA_233130.fa > 				Hammondia_hammondi_nucleoside_transporter_protein.fa
-			awk '/^>/{print "> Hammondia_hammondi_nucleoside_transporter_protein" ++i; next}{print}' 					Hammondia_hammondi_nucleoside_transporter_protein.fa > 	  	
-				header_Hammondia_hammondi_nucleoside_transporter_protein.fa
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' HHA_233130.fa > Hammondia_hammondi_nucleoside_transporter_protein.fa
+			awk '/^>/{print "> Hammondia_hammondi_nucleoside_transporter_protein" ++i; next}{print}' Hammondia_hammondi_nucleoside_transporter_protein.fa > header_Hammondia_hammondi_nucleoside_transporter_protein.fa
 		# NCLIV_032940 Neospora caninum Liverpool putative adenosine transporter: Evalue= 0
-			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' NCLIV_032940.fa > 				Neospora_caninum_Liverpool_putative_adenosine_transporter.fa
-			awk '/^>/{print ">Hammondia_hammondi" ++i; next}{print}' 			
-				Neospora_caninum_Liverpool_putative_adenosine_transporter.fa > 		
-				header_Neospora_caninum_Liverpool_putative_adenosine_transporter.fa
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' NCLIV_032940.fa > Neospora_caninum_Liverpool_putative_adenosine_transporter.fa
+			awk '/^>/{print ">Hammondia_hammondi" ++i; next}{print}' Neospora_caninum_Liverpool_putative_adenosine_transporter.fa > header_Neospora_caninum_Liverpool_putative_adenosine_transporter.fa
 		# BESB_008590 Besnoitia besnoiti strain Bb-Ger1 unspecified product: Evalue= 0
-			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' BESB_008590.fa > 				Besnoitia_besnoiti_strain_Bb-Ger1_unspecified_product.fa
-			awk '/^>/{print "> Besnoitia_besnoiti_strain_Bb-Ger1_unspecified_product" ++i; next}{print}' 					Besnoitia_besnoiti_strain_Bb-Ger1_unspecified_product.fa > 	
-				header_Besnoitia_besnoiti_strain_Bb-Ger1_unspecified_product.fa
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' BESB_008590.fa > Besnoitia_besnoiti_strain_Bb-Ger1_unspecified_product.fa
+			awk '/^>/{print "> Besnoitia_besnoiti_strain_Bb-Ger1_unspecified_product" ++i; next}{print}' Besnoitia_besnoiti_strain_Bb-Ger1_unspecified_product.fa > header_Besnoitia_besnoiti_strain_Bb-Ger1_unspecified_product.fa
 		# CSUI_005052 Cystoisospora suis strain Wien I nucleoside transporter protein : Evalue= 2E-73
-			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' CSUI_005052.fa > 
-				Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein.fa
-			awk '/^>/{print "> Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein" ++i; 	
-				next}{print}' Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein.fa > 					header_Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein.fa
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' CSUI_005052.fa > Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein.fa
+			awk '/^>/{print "> Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein" ++i; next}{print}' Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein.fa > header_Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein.fa
 		#TGME49_244440 Toxoplasma gondii ME49 nucleoside transporter protein: Evalue= 5E-67
-			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' TGME49_244440.fa > 				Toxoplasma_gondii_ME49_nucleoside_transporter_protein.fa
-			awk '/^>/{print "> Toxoplasma_gondii_ME49_nucleoside_transporter_protein" ++i; next}{print}' 					Toxoplasma_gondii_ME49_nucleoside_transporter_protein.fa > 		
-				header_Toxoplasma_gondii_ME49_nucleoside_transporter_protein.fa
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' TGME49_244440.fa > Toxoplasma_gondii_ME49_nucleoside_transporter_protein.fa
+			awk '/^>/{print "> Toxoplasma_gondii_ME49_nucleoside_transporter_protein" ++i; next}{print}' Toxoplasma_gondii_ME49_nucleoside_transporter_protein.fa > header_Toxoplasma_gondii_ME49_nucleoside_transporter_protein.fa
 		# BESB_007550 Besnoitia besnoiti strain Bb-Ger1 unspecified product : Evalue= 6E-62
-			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' BESB_007550.fa > 				Besnoitia_besnoiti_strain_Bb-Ger1_unspecified_product.fa
-			awk '/^>/{print "> Besnoitia_besnoiti_strain_Bb-Ger1_unspecified_product" ++i; next}{print}' 					Besnoitia_besnoiti_strain_Bb-Ger1_unspecified_product.fa > 	
-				header_Besnoitia_besnoiti_strain_Bb-Ger1_unspecified_product.fa
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' BESB_007550.fa > Besnoitia_besnoiti_strain_Bb-Ger1_unspecified_product.fa
+			awk '/^>/{print "> Besnoitia_besnoiti_strain_Bb-Ger1_unspecified_product" ++i; next}{print}' Besnoitia_besnoiti_strain_Bb-Ger1_unspecified_product.fa > header_Besnoitia_besnoiti_strain_Bb-Ger1_unspecified_product.fa
 		# TGRUB_359630 Toxoplasma gondii RUB nucleoside transporter: Evalue= 2E-61
-			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' TGRUB_359630.fa > 				Toxoplasma_gondii_RUB_nucleoside_transporter.fa
-			awk '/^>/{print "> Toxoplasma_gondii_RUB_nucleoside_transporter" ++i; next}{print}' 		
-				Toxoplasma_gondii_RUB_nucleoside_transporter.fa > 
-				header_Toxoplasma_gondii_RUB_nucleoside_transporter.fa
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' TGRUB_359630.fa > Toxoplasma_gondii_RUB_nucleoside_transporter.fa
+			awk '/^>/{print "> Toxoplasma_gondii_RUB_nucleoside_transporter" ++i; next}{print}' Toxoplasma_gondii_RUB_nucleoside_transporter.fa > header_Toxoplasma_gondii_RUB_nucleoside_transporter.fa
 		# BESB_015060  Besnoitia besnoiti strain Bb-Ger1 unspecified product: Evalue= 7E-61
-			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' BESB_015060.fa > 				Besnoitia_besnoiti_strain_Bb-Ger1_unspecified_product.fa
-			awk '/^>/{print "> Besnoitia_besnoiti_strain_Bb-Ger1_unspecified_product" ++i; next}{print}' 					Besnoitia_besnoiti_strain_Bb-Ger1_unspecified_product.fa > 			
-				header_Besnoitia_besnoiti_strain_Bb-Ger1_unspecified_product.fa
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' BESB_015060.fa > Besnoitia_besnoiti_strain_Bb-Ger1_unspecified_product.fa
+			awk '/^>/{print "> Besnoitia_besnoiti_strain_Bb-Ger1_unspecified_product" ++i; next}{print}' Besnoitia_besnoiti_strain_Bb-Ger1_unspecified_product.fa > header_Besnoitia_besnoiti_strain_Bb-Ger1_unspecified_product.fa
 		# HHA_244440 Hammondia hammondi strain H.H.34 nucleoside transporter protein: Evalue= 1E-60
-			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' HHA_244440.fa > 				Hammondia_hammondi_strain_H.H.34_nucleoside_transporter_protein.fa
-			awk '/^>/{print ">Hammondia_hammondi_strain_H.H.34_nucleoside_transporter_protein " ++i; next}{print}' Hammondia_hammondi_strain_H.H.34_nucleoside_transporter_protein.fa > 					header_Hammondia_hammondi_strain_H.H.34_nucleoside_transporter_protein.fa
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' HHA_244440.fa > Hammondia_hammondi_strain_H.H.34_nucleoside_transporter_protein.fa
+			awk '/^>/{print ">Hammondia_hammondi_strain_H.H.34_nucleoside_transporter_protein " ++i; next}{print}' Hammondia_hammondi_strain_H.H.34_nucleoside_transporter_protein.fa > header_Hammondia_hammondi_strain_H.H.34_nucleoside_transporter_protein.fa
 		# CSUI_002055 Cystoisospora suis strain Wien I nucleoside transporter protein: Evalue= 4E-59
-			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' CSUI_002055.fa > 				Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein.fa
-			awk '/^>/{print "> Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein" ++i; next}{print}' Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein.fa > 					header_Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein.fa
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' CSUI_002055.fa > Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein.fa
+			awk '/^>/{print "> Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein" ++i; next}{print}' Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein.fa > header_Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein.fa
 		#  NCLIV_019000 Neospora caninum Liverpool putative adenosine transporter: Evalue= 9E-58
-			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' NCLIV_019000.fa > 				Neospora_caninum_Liverpool_putative_adenosine_transporter.fa
-			awk '/^>/{print "> Neospora_caninum_Liverpool_putative_adenosine_transporter" ++i; next}{print}' 				Neospora_caninum_Liverpool_putative_adenosine_transporter.fa > 			
-				header_Neospora_caninum_Liverpool_putative_adenosine_transporter.fa
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' NCLIV_019000.fa > Neospora_caninum_Liverpool_putative_adenosine_transporter.fa
+			awk '/^>/{print "> Neospora_caninum_Liverpool_putative_adenosine_transporter" ++i; next}{print}' Neospora_caninum_Liverpool_putative_adenosine_transporter.fa > header_Neospora_caninum_Liverpool_putative_adenosine_transporter.fa
 		# Ncaninum_LIV_000577500 Neospora caninum Liverpool 2019 putative adenosine transporter: Evalue= 9E-58
-			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' 						Ncaninum_LIV_000577500.fa > 
-				Neospora_caninum_Liverpool_2019_putative_adenosine_transporter.fa
-			awk '/^>/{print ">Neospora_caninum_Liverpool_2019_putative_adenosine_transporter" ++i; next}{print}' 				Neospora_caninum_Liverpool_2019_putative_adenosine_transporter.fa > 
-				header_Neospora_caninum_Liverpool_2019_putative_adenosine_transporter.fa
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' Ncaninum_LIV_000577500.fa > Neospora_caninum_Liverpool_2019_putative_adenosine_transporter.fa
+			awk '/^>/{print ">Neospora_caninum_Liverpool_2019_putative_adenosine_transporter" ++i; next}{print}' Neospora_caninum_Liverpool_2019_putative_adenosine_transporter.fa > header_Neospora_caninum_Liverpool_2019_putative_adenosine_transporter.fa
 		# SN3_00701320 Sarcocystis neurona SN3 nucleoside transporter protein: Evalue= 2E-53
-			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' SN3_00701320.fa > 				Sarcocystis_neurona_SN3_nucleoside_transporter_protein.fa
-			awk '/^>/{print "> Sarcocystis_neurona_SN3_nucleoside_transporter_protein" ++i; next}{print}' 	
-				Sarcocystis_neurona_SN3_nucleoside_transporter_protein.fa > 		
-				header_Sarcocystis_neurona_SN3_nucleoside_transporter_protein.fa
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' SN3_00701320.fa > Sarcocystis_neurona_SN3_nucleoside_transporter_protein.fa
+			awk '/^>/{print "> Sarcocystis_neurona_SN3_nucleoside_transporter_protein" ++i; next}{print}' Sarcocystis_neurona_SN3_nucleoside_transporter_protein.fa > header_Sarcocystis_neurona_SN3_nucleoside_transporter_protein.fa
 		# SRCN_6520 Sarcocystis neurona SO SN1 unspecified product: Evalue= 2E-53
-			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' SRCN_6520.fa > 				Sarcocystis_neurona_SO_SN1_unspecified_product.fa
-			awk '/^>/{print "> Sarcocystis_neurona_SO_SN1_unspecified_product" ++i; next}{print}' 						Sarcocystis_neurona_SO_SN1_unspecified_product.fa > 		
-				header_Sarcocystis_neurona_SO_SN1_unspecified_product.fa
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' SRCN_6520.fa > Sarcocystis_neurona_SO_SN1_unspecified_product.fa
+			awk '/^>/{print "> Sarcocystis_neurona_SO_SN1_unspecified_product" ++i; next}{print}' Sarcocystis_neurona_SO_SN1_unspecified_product.fa > header_Sarcocystis_neurona_SO_SN1_unspecified_product.fa
 		# CSUI_008365 Cystoisospora suis strain Wien I nucleoside transporter protein: Evalue=5E-53
-			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' CSUI_008365.fa > 				Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein.fa
-			awk '/^>/{print "> Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein " ++i;next}{print}' Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein.fa > 	
-				header_Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein.fa
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' CSUI_008365.fa > Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein.fa
+			awk '/^>/{print "> Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein " ++i;next}{print}' Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein.fa > header_Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein.fa
       		# cyc_02017 Cyclospora cayetanensis strain CHN_HEN01 nucleoside transporter protein: Evalue= 2E-51
-			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' cyc_02017.fa > 		
-				Cyclospora_cayetanensis_strain_CHN_HEN01_nucleoside_transporter_protein.fa
-			awk '/^>/{print ">Cyclospora_cayetanensis_strain_CHN_HEN01_nucleoside_transporter_protein" ++i; next}{print}' 		
-				Cyclospora_cayetanensis_strain_CHN_HEN01_nucleoside_transporter_protein.fa > header_Cyclospora_cayetanensis_strain_CHN_HEN01_nucleoside_transporter_protein.fa
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' cyc_02017.fa > Cyclospora_cayetanensis_strain_CHN_HEN01_nucleoside_transporter_protein.fa
+			awk '/^>/{print ">Cyclospora_cayetanensis_strain_CHN_HEN01_nucleoside_transporter_protein" ++i; next}{print}' Cyclospora_cayetanensis_strain_CHN_HEN01_nucleoside_transporter_protein.fa > header_Cyclospora_cayetanensis_strain_CHN_HEN01_nucleoside_transporter_protein.fa
 		# cyc_02500 Cyclospora cayetanensis strain CHN_HEN01 hypothetical protein: Evalue= 2E-50
-			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' cyc_02500.fa > 			Cyclospora_cayetanensis_strain_CHN_HEN01_hypothetical_protein.fa
-			awk '/^>/{print "> Cyclospora_cayetanensis_strain_CHN_HEN01_hypothetical_protein" ++i; next}{print}' 		Cyclospora_cayetanensis_strain_CHN_HEN01_hypothetical_protein.fa > header_Cyclospora_cayetanensis_strain_CHN_HEN01_hypothetical_protein.fa
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' cyc_02500.fa > Cyclospora_cayetanensis_strain_CHN_HEN01_hypothetical_protein.fa
+			awk '/^>/{print "> Cyclospora_cayetanensis_strain_CHN_HEN01_hypothetical_protein" ++i; next}{print}' Cyclospora_cayetanensis_strain_CHN_HEN01_hypothetical_protein.fa > header_Cyclospora_cayetanensis_strain_CHN_HEN01_hypothetical_protein.fa
 		# HHA_450020 Hammondia hammondi strain H.H.34 nucleoside transporter : Evalue= 2E-48
-			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' HHA_450020.fa > 	
-				Hammondia_hammondi_strain_H.H.34_nucleoside_transporter.fa
-			awk '/^>/{print "> Hammondia_hammondi_strain_H.H.34_nucleoside_transporter" ++i; next}{print}' 		
-				Hammondia_hammondi_strain_H.H.34_nucleoside_transporter.fa > header_Hammondia_hammondi_strain_H.H.34_nucleoside_transporter.fa
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' HHA_450020.fa > Hammondia_hammondi_strain_H.H.34_nucleoside_transporter.fa
+			awk '/^>/{print "> Hammondia_hammondi_strain_H.H.34_nucleoside_transporter" ++i; next}{print}' Hammondia_hammondi_strain_H.H.34_nucleoside_transporter.fa > header_Hammondia_hammondi_strain_H.H.34_nucleoside_transporter.fa
 		# LOC34618927 Cyclospora cayetanensis isolate NF1_C8 uncharacterized LOC34618927: Evalue= 4E-47
-			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' LOC34618927.fa > 	
-				Cyclospora_cayetanensis_isolate_NF1_C8_uncharacterized_LOC34618927.fa
-			awk '/^>/{print "> Cyclospora_cayetanensis_isolate_NF1_C8_uncharacterized_LOC34618927" ++i; next}{print}' 		
-					Cyclospora_cayetanensis_isolate_NF1_C8_uncharacterized_LOC34618927.fa > 		
-					header_Cyclospora_cayetanensis_isolate_NF1_C8_uncharacterized_LOC34618927.fa
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' LOC34618927.fa > Cyclospora_cayetanensis_isolate_NF1_C8_uncharacterized_LOC34618927.fa
+			awk '/^>/{print "> Cyclospora_cayetanensis_isolate_NF1_C8_uncharacterized_LOC34618927" ++i; next}{print}' Cyclospora_cayetanensis_isolate_NF1_C8_uncharacterized_LOC34618927.fa > header_Cyclospora_cayetanensis_isolate_NF1_C8_uncharacterized_LOC34618927.fa
 		# LOC34619343 Cyclospora cayetanensis isolate NF1_C8 uncharacterized LOC34619343: Evalue= 2E-47
-			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' LOC34619343.fa > 	
-				Cyclospora_cayetanensis_isolate_NF1_C8_uncharacterized_LOC34619343.fa
-			awk '/^>/{print ">Cyclospora_cayetanensis_isolate_NF1_C8_uncharacterized_LOC34619343" ++i; next}{print}' 	
-					Cyclospora_cayetanensis_isolate_NF1_C8_uncharacterized_LOC34619343.fa > 	
-					header_Cyclospora_cayetanensis_isolate_NF1_C8_uncharacterized_LOC34619343.fa
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' LOC34619343.fa > Cyclospora_cayetanensis_isolate_NF1_C8_uncharacterized_LOC34619343.fa
+			awk '/^>/{print ">Cyclospora_cayetanensis_isolate_NF1_C8_uncharacterized_LOC34619343" ++i; next}{print}' Cyclospora_cayetanensis_isolate_NF1_C8_uncharacterized_LOC34619343.fa > header_Cyclospora_cayetanensis_isolate_NF1_C8_uncharacterized_LOC34619343.fa
 		# EMH_0042970 Eimeria mitis Houghton CG31911-PA: Evalue= 4E-46
 			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' EMH_0042970.fa > Eimeria_mitis_Houghton_CG31911-PA.fa
-			awk '/^>/{print "> Eimeria_mitis_Houghton_CG31911-PA" ++i; next}{print}' Eimeria_mitis_Houghton_CG31911-PA.fa > 		
-				header_Eimeria_mitis_Houghton_CG31911-PA.fa
+			awk '/^>/{print "> Eimeria_mitis_Houghton_CG31911-PA" ++i; next}{print}' Eimeria_mitis_Houghton_CG31911-PA.fa > header_Eimeria_mitis_Houghton_CG31911-PA.fa
 		# EMH_0009310 Eimeria mitis Houghton adenosine transporter, putative: Evalue= 2E-45
-			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' EMH_0009310.fa > 		
-				Eimeria_mitis_Houghton_adenosine_transporter.fa
-			awk '/^>/{print "> Eimeria_mitis_Houghton_adenosine_transporter" ++i; next}{print}' Eimeria_mitis_Houghton_adenosine_transporter.fa > header_ 					Eimeria_mitis_Houghton_adenosine_transporter.fa
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' EMH_0009310.fa > Eimeria_mitis_Houghton_adenosine_transporter.fa
+			awk '/^>/{print "> Eimeria_mitis_Houghton_adenosine_transporter" ++i; next}{print}' Eimeria_mitis_Houghton_adenosine_transporter.fa > header_Eimeria_mitis_Houghton_adenosine_transporter.fa
 		# EMWEY_00026480 Eimeria maxima Weybridge adenosine transporter, putative: Evalue= 4E-45
-			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' EMWEY_00026480.fa > 		'	
-					Eimeria_maxima_Weybridge_adenosine_transporter.fa
-			awk '/^>/{print "> Eimeria_maxima_Weybridge_adenosine_transporter" ++i; next}{print}' Eimeria_maxima_Weybridge_adenosine_transporter.fa > 				header_ Eimeria_maxima_Weybridge_adenosine_transporter.fa
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' EMWEY_00026480.fa > Eimeria_maxima_Weybridge_adenosine_transporter.fa
+			awk '/^>/{print "> Eimeria_maxima_Weybridge_adenosine_transporter" ++i; next}{print}' Eimeria_maxima_Weybridge_adenosine_transporter.fa > header_ Eimeria_maxima_Weybridge_adenosine_transporter.fa
 		# cyc_01083 Cyclospora cayetanensis strain CHN_HEN01 hypothetical protein: Evalue= 4E-44
-			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' cyc_01083.fa > 	
-				Cyclospora_cayetanensis_strain_CHN_HEN01_hypothetical¬_protein.fa
-			awk '/^>/{print "> Cyclospora_cayetanensis_strain_CHN_HEN01_hypothetical¬_protein" ++i; next}{print}' 			
-				Cyclospora_cayetanensis_strain_CHN_HEN01_hypothetical¬_protein.fa > 		
-				header_Cyclospora_cayetanensis_strain_CHN_HEN01_hypothetical¬_protein.fa
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' cyc_01083.fa > Cyclospora_cayetanensis_strain_CHN_HEN01_hypothetical¬_protein.fa
+			awk '/^>/{print "> Cyclospora_cayetanensis_strain_CHN_HEN01_hypothetical¬_protein" ++i; next}{print}' Cyclospora_cayetanensis_strain_CHN_HEN01_hypothetical¬_protein.fa > header_Cyclospora_cayetanensis_strain_CHN_HEN01_hypothetical¬_protein.fa
 		# EPH_0074730 Eimeria praecox Houghton adenosine transporter, putative: Evalue= 2E-44
-			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' EPH_0074730.fa > 	
-				Eimeria_praecox_Houghton_adenosine_transporter.fa
-			awk '/^>/{print "> Eimeria_praecox_Houghton_adenosine_transporter" ++i; next}{print}' 	
-				Eimeria_praecox_Houghton_adenosine_transporter.fa > 					
-				header_Eimeria_praecox_Houghton_adenosine_transporter.fa
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' EPH_0074730.fa > Eimeria_praecox_Houghton_adenosine_transporter.fa
+			awk '/^>/{print "> Eimeria_praecox_Houghton_adenosine_transporter" ++i; next}{print}' Eimeria_praecox_Houghton_adenosine_transporter.fa > header_Eimeria_praecox_Houghton_adenosine_transporter.fa
 		# ENH_00075490 Eimeria necatrix Houghton adenosine transporter, putative: Evalue= 4E-44
-			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' ENH_00075490.fa > 				Eimeria_necatrix_Houghton_adenosine_transporter.fa
-			awk '/^>/{print "> Eimeria_necatrix_Houghton_adenosine_transporter" ++i; next}{print}'
-				Eimeria_necatrix_Houghton_adenosine_transporter.fa > 	
-				header_Eimeria_necatrix_Houghton_adenosine_transporter.fa
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' ENH_00075490.fa > Eimeria_necatrix_Houghton_adenosine_transporter.fa
+			awk '/^>/{print "> Eimeria_necatrix_Houghton_adenosine_transporter" ++i; next}{print}'Eimeria_necatrix_Houghton_adenosine_transporter.fa > header_Eimeria_necatrix_Houghton_adenosine_transporter.fa
 		# TGRH88_078240 Toxoplasma gondii RH-88 nucleoside transporter: Evalue= 6E-45
-			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' TGRH88_078240.fa > 				Toxoplasma_gondii_RH-88_nucleoside_transporter.fa
-			awk '/^>/{print "> Toxoplasma_gondii_RH-88_nucleoside_transporter" ++i; next}{print}' 		
-				Toxoplasma_gondii_RH-88_nucleoside_transporter.fa > header_Toxoplasma_gondii_RH-					88_nucleoside_transporter.fa
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' TGRH88_078240.fa > Toxoplasma_gondii_RH-88_nucleoside_transporter.fa
+			awk '/^>/{print "> Toxoplasma_gondii_RH-88_nucleoside_transporter" ++i; next}{print}' Toxoplasma_gondii_RH-88_nucleoside_transporter.fa > header_Toxoplasma_gondii_RH-88_nucleoside_transporter.fa
 		# EBH_0018350 Eimeria brunetti Houghton adenosine transporter, putative : Evalue= 1E-42
-			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' EBH_0018350.fa > 				Eimeria_brunetti_Houghton_adenosine_transporter.fa
-			awk '/^>/{print "> Eimeria_brunetti_Houghton_adenosine_transporter" ++i; next}{print}' 						Eimeria_brunetti_Houghton_adenosine_transporter.fa > 				
-				header_Eimeria_brunetti_Houghton_adenosine_transporter.fa
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' EBH_0018350.fa > Eimeria_brunetti_Houghton_adenosine_transporter.fa
+			awk '/^>/{print "> Eimeria_brunetti_Houghton_adenosine_transporter" ++i; next}{print}' Eimeria_brunetti_Houghton_adenosine_transporter.fa > header_Eimeria_brunetti_Houghton_adenosine_transporter.fa
 		# ETH_00015450 Eimeria tenella strain Houghton adenosine transporter, putative: Evalue= 6E-43
-			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' ETH_00015450.fa > 				Eimeria_tenella_strain_Houghton_adenosine_transporter.fa
-			awk '/^>/{print "> Eimeria_tenella_strain_Houghton_adenosine_transporter " ++i; next}{print} 					Eimeria_tenella_strain_Houghton_adenosine_transporter.fa > 		
-				header_Eimeria_tenella_strain_Houghton_adenosine_transporter.fa
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' ETH_00015450.fa > Eimeria_tenella_strain_Houghton_adenosine_transporter.fa
+			awk '/^>/{print "> Eimeria_tenella_strain_Houghton_adenosine_transporter " ++i; next}{print} Eimeria_tenella_strain_Houghton_adenosine_transporter.fa > header_Eimeria_tenella_strain_Houghton_adenosine_transporter.fa
  		# LOC34622972 Cyclospora cayetanensis isolate NF1_C8 uncharacterized LOC34622972: Evalue= 3E-42
-			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' LOC34622972.fa > 				Cyclospora_cayetanensis_isolate_NF1_C8_uncharacterized_LOC34622972.fa
-			awk '/^>/{print "> Cyclospora_cayetanensis_isolate_NF1_C8_uncharacterized_LOC34622972" ++i; 					next}{print} Cyclospora_cayetanensis_isolate_NF1_C8_uncharacterized_LOC34622972.fa > 					header_Cyclospora_cayetanensis_isolate_NF1_C8_uncharacterized_LOC34622972.fa
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' LOC34622972.fa > Cyclospora_cayetanensis_isolate_NF1_C8_uncharacterized_LOC34622972.fa
+			awk '/^>/{print "> Cyclospora_cayetanensis_isolate_NF1_C8_uncharacterized_LOC34622972" ++i; next}{print} Cyclospora_cayetanensis_isolate_NF1_C8_uncharacterized_LOC34622972.fa > header_Cyclospora_cayetanensis_isolate_NF1_C8_uncharacterized_LOC34622972.fa
