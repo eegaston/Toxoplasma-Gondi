@@ -44,7 +44,7 @@ Protozoans genes were compared to TGME49_233130 by preforming a local alignment 
       39. LOC34618157 Cyclospora cayetanensis isolate NF1_C8 uncharacterized LOC34618157: Evalue= 9E-28
       40. EAH_00020190 Eimeria acervulina Houghton adenosine transporter, putative: Evalue= 1E-23
       41. BESB_021360  Besnoitia besnoiti strain Bb-Ger1 unspecified product: Evalue= 8E-22
-	42. SN3_00200406  Sarcocystis neurona SN3 Equilibrative nucleoside transporter: Evalue= 1E-21
+      42. SN3_00200406  Sarcocystis neurona SN3 Equilibrative nucleoside transporter: Evalue= 1E-21
       43. SRCN_1080 Sarcocystis neurona SO SN1 unspecified product : Evalue= 3E-22
       44. NCLIV_041010 Neospora caninum Liverpool conserved hypothetical protein: Evalue= 6E-21
       45. TGRUB_288540B Toxoplasma gondii RUB nucleoside transporter protein : Evalue= 3E-21
