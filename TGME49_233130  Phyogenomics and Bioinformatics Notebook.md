@@ -2,7 +2,8 @@
 
 # Blast Results
 Protozoans genes were compared to TGME49_233130 by preforming a local alignment analysis (BLAST ANALYSIS) in Eupathdb
-      1. HHA_233130 Hammondia hammondi strain H.H.34 nucleoside transporter protein: Evalue= 0
+     
+     1. HHA_233130 Hammondia hammondi strain H.H.34 nucleoside transporter protein: Evalue= 0
       2. NCLIV_032940 Neospora caninum Liverpool putative adenosine transporter: Evalue= 0
       3. BESB_008590 Besnoitia besnoiti strain Bb-Ger1 unspecified product: Evalue= 0
       4. CSUI_005052 Cystoisospora suis strain Wien I nucleoside transporter protein : Evalue= 2E-73
