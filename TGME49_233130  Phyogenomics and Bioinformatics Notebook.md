@@ -198,4 +198,26 @@ Non-apicomplexan BLAST
 		# EPH_0074730 Eimeria praecox Houghton adenosine transporter, putative: Evalue= 2E-44
 			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' EPH_0074730.fa > 	
 				Eimeria_praecox_Houghton_adenosine_transporter.fa
-			awk '/^>/{print "> Eimeria_praecox_Houghton_adenosine_transporter" ++i; next}{print}' Eimeria_praecox_Houghton_adenosine_transporter.fa > 				header_Eimeria_praecox_Houghton_adenosine_transporter.fa
+			awk '/^>/{print "> Eimeria_praecox_Houghton_adenosine_transporter" ++i; next}{print}' 	
+				Eimeria_praecox_Houghton_adenosine_transporter.fa > 					
+				header_Eimeria_praecox_Houghton_adenosine_transporter.fa
+		# ENH_00075490 Eimeria necatrix Houghton adenosine transporter, putative: Evalue= 4E-44
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' ENH_00075490.fa > 				Eimeria_necatrix_Houghton_adenosine_transporter.fa
+			awk '/^>/{print "> Eimeria_necatrix_Houghton_adenosine_transporter" ++i; next}{print}'
+				Eimeria_necatrix_Houghton_adenosine_transporter.fa > 	
+				header_Eimeria_necatrix_Houghton_adenosine_transporter.fa
+		# TGRH88_078240 Toxoplasma gondii RH-88 nucleoside transporter: Evalue= 6E-45
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' TGRH88_078240.fa > 				Toxoplasma_gondii_RH-88_nucleoside_transporter.fa
+			awk '/^>/{print "> Toxoplasma_gondii_RH-88_nucleoside_transporter" ++i; next}{print}' 		
+				Toxoplasma_gondii_RH-88_nucleoside_transporter.fa > header_Toxoplasma_gondii_RH-					88_nucleoside_transporter.fa
+		# EBH_0018350 Eimeria brunetti Houghton adenosine transporter, putative : Evalue= 1E-42
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' EBH_0018350.fa > 				Eimeria_brunetti_Houghton_adenosine_transporter.fa
+			awk '/^>/{print "> Eimeria_brunetti_Houghton_adenosine_transporter" ++i; next}{print}' 						Eimeria_brunetti_Houghton_adenosine_transporter.fa > 				
+				header_Eimeria_brunetti_Houghton_adenosine_transporter.fa
+		# ETH_00015450 Eimeria tenella strain Houghton adenosine transporter, putative: Evalue= 6E-43
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' ETH_00015450.fa > 				Eimeria_tenella_strain_Houghton_adenosine_transporter.fa
+			awk '/^>/{print "> Eimeria_tenella_strain_Houghton_adenosine_transporter " ++i; next}{print} 					Eimeria_tenella_strain_Houghton_adenosine_transporter.fa > 		
+				header_Eimeria_tenella_strain_Houghton_adenosine_transporter.fa
+ 		# LOC34622972 Cyclospora cayetanensis isolate NF1_C8 uncharacterized LOC34622972: Evalue= 3E-42
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' LOC34622972.fa > 				Cyclospora_cayetanensis_isolate_NF1_C8_uncharacterized_LOC34622972.fa
+			awk '/^>/{print "> Cyclospora_cayetanensis_isolate_NF1_C8_uncharacterized_LOC34622972" ++i; 					next}{print} Cyclospora_cayetanensis_isolate_NF1_C8_uncharacterized_LOC34622972.fa > 					header_Cyclospora_cayetanensis_isolate_NF1_C8_uncharacterized_LOC34622972.fa
