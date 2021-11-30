@@ -2,6 +2,139 @@
 
 # Blast Results
 Protozoans genes were compared to TGME49_233130 by preforming a local alignment analysis (BLAST ANALYSIS) in Eupathdb
+      1. HHA_233130 Hammondia hammondi strain H.H.34 nucleoside transporter protein: Evalue= 0
+      2. NCLIV_032940 Neospora caninum Liverpool putative adenosine transporter: Evalue= 0
+      3. BESB_008590 Besnoitia besnoiti strain Bb-Ger1 unspecified product: Evalue= 0
+      4. CSUI_005052 Cystoisospora suis strain Wien I nucleoside transporter protein : Evalue= 2E-73
+      5. TGME49_244440 Toxoplasma gondii ME49 nucleoside transporter protein: Evalue= 5E-67
+      6. BESB_007550 Besnoitia besnoiti strain Bb-Ger1 unspecified product : Evalue= 6E-62
+      7. TGRUB_359630 Toxoplasma gondii RUB nucleoside transporter: Evalue= 2E-61
+      8. BESB_015060  Besnoitia besnoiti strain Bb-Ger1 unspecified product: Evalue= 7E-61
+      9. HHA_244440 Hammondia hammondi strain H.H.34 nucleoside transporter protein: Evalue= 1E-60
+      10. CSUI_002055 Cystoisospora suis strain Wien I nucleoside transporter protein: Evalue= 4E-59
+      11. NCLIV_019000 Neospora caninum Liverpool putative adenosine transporter: Evalue= 9E-58
+      12. Ncaninum_LIV_000577500 Neospora caninum Liverpool 2019 putative adenosine transporter: Evalue= 9E-58
+      13. SN3_00701320 Sarcocystis neurona SN3 nucleoside transporter protein: Evalue= 2E-53
+      14. SRCN_6520 Sarcocystis neurona SO SN1 unspecified product: Evalue= 2E-53
+      15. CSUI_008365 Cystoisospora suis strain Wien I nucleoside transporter protein: Evalue=5E-53
+      16. cyc_02017 Cyclospora cayetanensis strain CHN_HEN01 nucleoside transporter protein: Evalue= 2E-51
+      17. cyc_02500 Cyclospora cayetanensis strain CHN_HEN01 hypothetical protein: Evalue= 2E-50
+      18. HHA_450020 Hammondia hammondi strain H.H.34 nucleoside transporter : Evalue= 2E-48
+      19. LOC34618927 Cyclospora cayetanensis isolate NF1_C8 uncharacterized LOC34618927: Evalue= 4E-47
+      20. LOC34619343 Cyclospora cayetanensis isolate NF1_C8 uncharacterized LOC34619343: Evalue= 2E-47
+      21. EMH_0042970 Eimeria mitis Houghton CG31911-PA, related: Evalue= 4E-46
+      22. EMH_0009310 Eimeria mitis Houghton adenosine transporter, putative: Evalue= 2E-45
+      23. EMWEY_00026480 Eimeria maxima Weybridge adenosine transporter, putative: Evalue= 4E-45
+      24. cyc_01083 Cyclospora cayetanensis strain CHN_HEN01 hypothetical protein: Evalue= 4E-44
+      25. EPH_0074730 Eimeria praecox Houghton adenosine transporter, putative: Evalue= 2E-44
+      26. ENH_00075490 Eimeria necatrix Houghton adenosine transporter, putative: Evalue= 4E-44
+      27. TGRH88_078240 Toxoplasma gondii RH-88 nucleoside transporter: Evalue= 6E-45
+      28. EBH_0018350 Eimeria brunetti Houghton adenosine transporter, putative : Evalue= 1E-42
+      29. ETH_00015450 Eimeria tenella strain Houghton adenosine transporter, putative: Evalue= 6E-43
+      30. LOC34622972 Cyclospora cayetanensis isolate NF1_C8 uncharacterized LOC34622972: Evalue= 3E-42
+      31. cyc_06908 Cyclospora cayetanensis strain CHN_HEN01 putative adenosine transporter : Evalue= 9E-43
+      32. CSUI_011115 Cystoisospora suis strain Wien I nucleoside transporter protein: Evalue= 1E-39
+      33. ENH_00071500 Eimeria necatrix Houghton hypothetical protein, conserved: Evalue= 8E-39
+      34. EfaB_MINUS_56725.g2936 Eimeria falciformis Bayer Haberkorn 1970 unspecified product: Evalue= 6E-39
+      35. ETH_00024465 Eimeria tenella strain Houghton hypothetical protein, conserved: Evalue= 7E-38
+      36. EAH_00048570 Eimeria acervulina Houghton hypothetical protein, conserved: Evalue= 1E-36
+      37. TGP89_418410 Toxoplasma gondii p89 nucleoside transporter: Evalue= 1E-35
+      38. SRCN_4040 Sarcocystis neurona SO SN1 unspecified product : Evalue= 2E-29
+      39. LOC34618157 Cyclospora cayetanensis isolate NF1_C8 uncharacterized LOC34618157: Evalue= 9E-28
+      40. EAH_00020190 Eimeria acervulina Houghton adenosine transporter, putative: Evalue= 1E-23
+      41. BESB_021360  Besnoitia besnoiti strain Bb-Ger1 unspecified product: Evalue= 8E-22
+	42. SN3_00200406  Sarcocystis neurona SN3 Equilibrative nucleoside transporter: Evalue= 1E-21
+      43. SRCN_1080 Sarcocystis neurona SO SN1 unspecified product : Evalue= 3E-22
+      44. NCLIV_041010 Neospora caninum Liverpool conserved hypothetical protein: Evalue= 6E-21
+      45. TGRUB_288540B Toxoplasma gondii RUB nucleoside transporter protein : Evalue= 3E-21
+      
+>HHA_288540  | Hammondia hammondi strain H.H.34 | nucleoside transporter protein | protein | length=697
+
+	2E-20
+>Ncaninum_LIV_000215200  | Neospora caninum Liverpool 2019 | ribosomal RNA small subunit methyltransferase F (RRNA(Cytosine-C)), related | protein | length=1473
+
+	2E-20
+>ENH_00012770  | Eimeria necatrix Houghton | hypothetical protein, conserved | protein | length=645
+
+5E-17
+
+>ETH_00004635  | Eimeria tenella strain Houghton | hypothetical protein, conserved | protein | length=679
+
+	6E-17
+>EBH_0062530  | Eimeria brunetti Houghton | hypothetical protein, conserved | protein | length=642
+
+	2E-15
+>PVSEL_0500770  | Plasmodium vinckei Cameroon EL | Nucleoside transporter 1, putative [Source:UniProtKB/TrEMBL;Acc:A0A6V7SHU8] | protein | length=412
+
+	3E-15
+>PVPCR_0500780  | Plasmodium vinckei petteri CR 2020 | Nucleoside transporter 1, putative [Source:UniProtKB/TrEMBL;Acc:W7AJ65] | protein | length=412
+
+3E-15
+>YYG_03197  | Plasmodium vinckei petteri strain CR | hypothetical protein | protein | length=412
+
+	3E-15
+>PVLDE_1306780  | Plasmodium vinckei lentum DE | Nucleoside transporter 1, putative [Source:UniProtKB/TrEMBL;Acc:A0A6V7SU57] | protein | length=413
+
+	8E-15
+>PY17X_1365800  | Plasmodium yoelii yoelii 17X | nucleoside transporter 1 | protein | length=414
+
+2E-14
+
+>PYYM_1362200  | Plasmodium yoelii yoelii YM | nucleoside transporter 1 | protein | length=414
+
+2E-14
+
+>PVVCY_1306320  | Plasmodium vinckei vinckei CY | Nucleoside transporter 1, putative [Source:UniProtKB/TrEMBL;Acc:A0A449BZ88] | protein | length=414
+
+4E-14
+
+>YYE_00618  | Plasmodium vinckei vinckei strain vinckei | hypothetical protein | protein | length=414
+
+	4E-14
+>PBANKA_1360100  | Plasmodium berghei ANKA | nucleoside transporter 1 | protein | length=412
+
+2E-13
+>PocGH01_12015900  | Plasmodium ovale curtisi GH01 | nucleoside transporter 1, putative | protein | length=417
+
+	2E-11
+>PVBDA_1306550  | Plasmodium vinckei brucechwatti DA | Nucleoside transporter 1, putative [Source:UniProtKB/TrEMBL;Acc:A0A6V7SSU3] | protein | length=414
+
+	5E-11
+>PmUG01_12017700  | Plasmodium malariae UG01 | nucleoside transporter 1, putative | protein | length=416
+
+	7E-11
+>PRELSG_1250700  | Plasmodium relictum SGS1-like | nucleoside transporter 1, putative | protein | length=410
+
+	2E-10
+>PcyM_1209200  | Plasmodium cynomolgi strain M | nucleoside transporter 1, putative | protein | length=412
+
+	5E-10
+
+Non apicomplexan specific BLAST
+>TM35_000161950  | Trypanosoma theileri isolate Edinburgh | nucleoside transporter-like | protein | length=454
+
+4E-6
+>Tbg972.9.9940  | Trypanosoma brucei gambiense DAL972 | nucleoside transporter 1, putative | protein | length=399
+
+	5E-6
+>Tb427_000750400  | Trypanosoma brucei Lister strain 427 2018 | Nucleoside transporter, putative | protein | length=482
+
+	9E-6
+>TevSTIB805.9.11320  | Trypanosoma evansi strain STIB 805 | nucleoside transporter 1, putative | protein | length=480
+
+	1E-5
+>Tb927.9.15980  | Trypanosoma brucei brucei TREU927 | nucleoside transporter 1, putative | protein | length=482
+
+	1E-5
+>Tb09.v4.0106  | Trypanosoma brucei brucei TREU927 | nucleoside transporter 1, putative | protein | length=482
+
+	2E-5
+>Tb427_020032300  | Trypanosoma brucei Lister strain 427 2018 | Nucleoside transporter, putative | protein | length=463
+
+	5E-5
+>TcCL_ESM01314  | Trypanosoma cruzi strain CL | putative nucleoside transporter-like | protein | length=430
+
+	6E-5
 
 # Phylogenetic Analysis Code
       Mkdir TGME49233130
