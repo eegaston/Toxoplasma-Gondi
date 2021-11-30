@@ -2,7 +2,8 @@
 
 # Blast Results
 Protozoans genes were compared to TGME49_233130 by preforming a local alignment analysis (BLAST ANALYSIS) in Eupathdb
-     
+Results for Apicomplexan matches (matches with an E-value beloww E-10 where disregarded)
+
      1. HHA_233130 Hammondia hammondi strain H.H.34 nucleoside transporter protein: Evalue= 0
       2. NCLIV_032940 Neospora caninum Liverpool putative adenosine transporter: Evalue= 0
       3. BESB_008590 Besnoitia besnoiti strain Bb-Ger1 unspecified product: Evalue= 0
@@ -67,7 +68,7 @@ Protozoans genes were compared to TGME49_233130 by preforming a local alignment 
       62. PmUG01_12017700 Plasmodium malariae UG01 nucleoside transporter 1, putative: Evalue= 7E-11
       63. PRELSG_1250700 Plasmodium relictum SGS1-like nucleoside transporter 1, putative : Evalue= 2E-10
       64. PcyM_1209200 Plasmodium cynomolgi strain M nucleoside transporter 1, putative: Evalue= 5E-10
-	Non apicomplexan specific BLAST
+Non-apicomplexan BLAST
 		65. TM35_000161950 Trypanosoma theileri isolate Edinburgh nucleoside transporter-like : Evalue= 4E-6
 		66. Tbg972.9.9940  Trypanosoma brucei gambiense DAL972 nucleoside transporter 1, putative : Evalue= 5E-6
 		67. Tb427_000750400 Trypanosoma brucei Lister strain 427 2018 Nucleoside transporter, putative : Evalue= 9E-6
