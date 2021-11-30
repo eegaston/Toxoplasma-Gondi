@@ -63,39 +63,17 @@ Protozoans genes were compared to TGME49_233130 by preforming a local alignment 
       58. YYE_00618 Plasmodium vinckei vinckei strain vinckei hypothetical protein: Evalue= 4E-14
       59. PBANKA_1360100 Plasmodium berghei ANKA nucleoside transporter 1 : Evalue= 2E-13
       60. PocGH01_12015900 Plasmodium ovale curtisi GH01 nucleoside transporter 1, putative: Evalue= 2E-11
-
->PVBDA_1306550  | Plasmodium vinckei brucechwatti DA | Nucleoside transporter 1, putative [Source:UniProtKB/TrEMBL;Acc:A0A6V7SSU3] | protein | length=414
-
-	5E-11
->PmUG01_12017700  | Plasmodium malariae UG01 | nucleoside transporter 1, putative | protein | length=416
-
-	7E-11
->PRELSG_1250700  | Plasmodium relictum SGS1-like | nucleoside transporter 1, putative | protein | length=410
-
-	2E-10
->PcyM_1209200  | Plasmodium cynomolgi strain M | nucleoside transporter 1, putative | protein | length=412
-
-	5E-10
-
-Non apicomplexan specific BLAST
->TM35_000161950  | Trypanosoma theileri isolate Edinburgh | nucleoside transporter-like | protein | length=454
-
-4E-6
->Tbg972.9.9940  | Trypanosoma brucei gambiense DAL972 | nucleoside transporter 1, putative | protein | length=399
-
-	5E-6
->Tb427_000750400  | Trypanosoma brucei Lister strain 427 2018 | Nucleoside transporter, putative | protein | length=482
-
-	9E-6
->TevSTIB805.9.11320  | Trypanosoma evansi strain STIB 805 | nucleoside transporter 1, putative | protein | length=480
-
-	1E-5
->Tb927.9.15980  | Trypanosoma brucei brucei TREU927 | nucleoside transporter 1, putative | protein | length=482
-
-	1E-5
->Tb09.v4.0106  | Trypanosoma brucei brucei TREU927 | nucleoside transporter 1, putative | protein | length=482
-
-	2E-5
+      61. PVBDA_1306550 Plasmodium vinckei brucechwatti DA Nucleoside transporter 1, putative: Evalue= 5E-11
+      62. PmUG01_12017700 Plasmodium malariae UG01 nucleoside transporter 1, putative: Evalue= 7E-11
+      63. PRELSG_1250700 Plasmodium relictum SGS1-like nucleoside transporter 1, putative : Evalue= 2E-10
+      64. PcyM_1209200 Plasmodium cynomolgi strain M nucleoside transporter 1, putative: Evalue= 5E-10
+	Non apicomplexan specific BLAST
+		65. TM35_000161950 Trypanosoma theileri isolate Edinburgh nucleoside transporter-like : Evalue= 4E-6
+		66. Tbg972.9.9940  Trypanosoma brucei gambiense DAL972 nucleoside transporter 1, putative : Evalue= 5E-6
+		67. Tb427_000750400 Trypanosoma brucei Lister strain 427 2018 Nucleoside transporter, putative : Evalue= 9E-6
+		68. TevSTIB805.9.11320 Trypanosoma evansi strain STIB 805 nucleoside transporter 1, putative : Evalue= 1E-5
+		69. Tb927.9.15980 Trypanosoma brucei brucei TREU927 nucleoside transporter 1, putative: Evalue= 1E-5
+		70. Tb09.v4.0106  Trypanosoma brucei brucei TREU927 nucleoside transporter 1, putative : Evalue= 2E-5
 >Tb427_020032300  | Trypanosoma brucei Lister strain 427 2018 | Nucleoside transporter, putative | protein | length=463
 
 	5E-5
