@@ -207,3 +207,33 @@ Non-apicomplexan BLAST
 		# EAH_00020190 Eimeria acervulina Houghton adenosine transporter, putative: Evalue= 1E-23
 			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' EAH_00020190.fa > Eimeria_acervulina_Houghton_adenosine_transporter.fa
 			awk '/^>/{print "> Eimeria_acervulina_Houghton_adenosine_transporter" ++i; next}{print} Eimeria_acervulina_Houghton_adenosine_transporter.fa > header_Eimeria_acervulina_Houghton_adenosine_transporter.fa
+		# BESB_021360 Besnoitia besnoiti strain Bb-Ger1 unspecified product: Evalue= 8E-22
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' BESB_021360.fa > Besnoitia_besnoiti_strain_Bb_Ger1_unspecified_product.fa
+			awk '/^>/{print "> Besnoitia_besnoiti_strain_Bb_Ger1_unspecified_product" ++i; next}{print} Besnoitia_besnoiti_strain_Bb_Ger1_unspecified_product.fa > header_Besnoitia_besnoiti_strain_Bb_Ger1_unspecified_product.fa
+		# SN3_00200406 Sarcocystis neurona SN3 Equilibrative nucleoside transporter: Evalue= 1E-21
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' SN3_00200406.fa > Sarcocystis_neurona_SN3_Equilibrative_nucleoside_transporter.fa
+			awk '/^>/{print "> Sarcocystis_neurona_SN3_Equilibrative_nucleoside_transporter" ++i; next}{print} Sarcocystis_neurona_SN3_Equilibrative_nucleoside_transporter.fa > header_Sarcocystis_neurona_SN3_Equilibrative_nucleoside_transporter.fa
+		# SRCN_1080 Sarcocystis neurona SO SN1 unspecified product: Evalue= 3E-22
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' SRCN_1080.fa > Sarcocystis_neurona_SO_SN1_unspecified_product.fa
+			awk '/^>/{print "> Sarcocystis_neurona_SO_SN1_unspecified_product" ++i; next}{print} Sarcocystis_neurona_SO_SN1_unspecified_product.fa > header_Sarcocystis_neurona_SO_SN1_unspecified_product.fa
+		# NCLIV_041010 Neospora caninum Liverpool conserved hypothetical protein: Evalue= 6E-21
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' NCLIV_041010.fa > Neospora_caninum_Liverpool_conserved_hypothetical_protein.fa
+			awk '/^>/{print "> Neospora_caninum_Liverpool_conserved_hypothetical_protein" ++i; next}{print} Neospora_caninum_Liverpool_conserved_hypothetical_protein.fa > header_Neospora_caninum_Liverpool_conserved_hypothetical_protein.fa
+		# TGRUB_288540B Toxoplasma gondii RUB nucleoside transporter protein: Evalue= 3E-21
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' TGRUB_288540B.fa > Toxoplasma_gondii_RUB_nucleoside_transporter_protein.fa
+			awk '/^>/{print "> Toxoplasma_gondii_RUB_nucleoside_transporter_protein" ++i; next}{print} Toxoplasma_gondii_RUB_nucleoside_transporter_protein.fa > header_Toxoplasma_gondii_RUB_nucleoside_transporter_protein.fa
+		# HHA_288540 Hammondia hammondi strain H.H.34 nucleoside transporter proteins: Evalue= 2E-20
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' HHA_288540.fa > Hammondia_hammondi_strain_H.H.34_nucleoside_transporter_proteins.fa
+			awk '/^>/{print "> Hammondia_hammondi_strain_H.H.34_nucleoside_transporter_proteins" ++i; next}{print} Hammondia_hammondi_strain_H.H.34_nucleoside_transporter_proteins.fa > header_Hammondia_hammondi_strain_H.H.34_nucleoside_transporter_proteins.fa
+		# Ncaninum_LIV_000215200 Neospora caninum Liverpool 2019 ribosomal RNA small subunit methyltransferase F(RRNA(Cytosine-C)), related: Evalue= 2E-20
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' Ncaninum_LIV_000215200.fa > Neospora_caninum_Liverpool_2019_ribosomal_RNA_small_subunit_methyltransferase_F.fa
+			awk '/^>/{print "> Neospora_caninum_Liverpool_2019_ribosomal_RNA_small_subunit_methyltransferase_F" ++i; next}{print} Neospora_caninum_Liverpool_2019_ribosomal_RNA_small_subunit_methyltransferase_F.fa> header_Neospora_caninum_Liverpool_2019_ribosomal_RNA_small_subunit_methyltransferase_F.fa
+		# ENH_00012770 Eimeria necatrix Houghton hypothetical protein, conserved: Evalue= 5E-17
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' ENH_00012770.fa > Eimeria_necatrix_Houghton_hypothetical-_protein.fa
+			awk '/^>/{print "> Eimeria_necatrix_Houghton_hypothetical¬_protein" ++i; next}{print} Eimeria_necatrix_Houghton_hypothetical¬_protein.fa > header_Eimeria_necatrix_Houghton_hypothetical¬_protein.fa
+		# ETH_00004635 Eimeria tenella strain Houghton hypothetical protein, conserved: Evalue= 6E-17
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' ETH_00004635.fa > Eimeria_tenella_strain_Houghton_hypothetical¬_protein.fa
+			awk '/^>/{print "> Eimeria_tenella_strain_Houghton_hypothetical¬_protein" ++i; next}{print} Eimeria_tenella_strain_Houghton_hypothetical¬_protein.fa > header_Eimeria_tenella_strain_Houghton_hypothetical¬_protein.fa
+		# EBH_0062530 Eimeria brunetti Houghton hypothetical protein, conserved: Evalue= 2E-15
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' EBH_0062530.fa > Eimeria_brunetti_Houghton_hypothetical_protein.fa
+			awk '/^>/{print "> Eimeria_brunetti_Houghton_hypothetical_protein" ++i; next}{print} Eimeria_brunetti_Houghton_hypothetical_protein.fa > header_Eimeria_brunetti_Houghton_hypothetical_protein.fa
