@@ -177,3 +177,33 @@ Non-apicomplexan BLAST
  		# LOC34622972 Cyclospora cayetanensis isolate NF1_C8 uncharacterized LOC34622972: Evalue= 3E-42
 			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' LOC34622972.fa > Cyclospora_cayetanensis_isolate_NF1_C8_uncharacterized_LOC34622972.fa
 			awk '/^>/{print "> Cyclospora_cayetanensis_isolate_NF1_C8_uncharacterized_LOC34622972" ++i; next}{print} Cyclospora_cayetanensis_isolate_NF1_C8_uncharacterized_LOC34622972.fa > header_Cyclospora_cayetanensis_isolate_NF1_C8_uncharacterized_LOC34622972.fa
+		# cyc_06908 Cyclospora cayetanensis strain CHN_HEN01 putative adenosine transporter : Evalue= 9E-43
+ 			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' cyc_06908.fa > Cyclospora_cayetanensis_strain_CHN_HEN01_putative_adenosine_transporter.fa
+			awk '/^>/{print "> Cyclospora_cayetanensis_strain_CHN_HEN01_putative_adenosine_transporter" ++i; next}{print} Cyclospora_cayetanensis_strain_CHN_HEN01_putative_adenosine_transporter.fa > header_ Cyclospora_cayetanensis_strain_CHN_HEN01_putative_adenosine_transporter.fa
+		# CSUI_011115 Cystoisospora suis strain Wien I nucleoside transporter protein: Evalue= 1E-39
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' CSUI_011115.fa > Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein.fa
+			awk '/^>/{print "> Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein" ++i; next}{print} Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein.fa > header_Cystoisospora_suis_strain_Wien_I_nucleoside_transporter_protein.fa
+		# ENH_00071500 Eimeria necatrix Houghton hypothetical protein, conserved: Evalue= 8E-39
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' ENH_00071500.fa > Eimeria_necatrix_Houghton_hypothetical_protein.fa
+			awk '/^>/{print "> Eimeria_necatrix_Houghton_hypothetical_protein" ++i; next}{print} Eimeria_necatrix_Houghton_hypothetical_protein.fa > header_Eimeria_necatrix_Houghton_hypothetical_protein.fa
+		# EfaB_MINUS_56725.g2936 Eimeria falciformis Bayer Haberkorn 1970 unspecified product: Evalue= 6E-39
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' EfaB_MINUS_56725.g2936.fa > Eimeria_falciformis_Bayer_Haberkorn_1970_unspecified_product.fa
+			awk '/^>/{print "> Eimeria_falciformis_Bayer_Haberkorn_1970_unspecified_product" ++i; next}{print} Eimeria_falciformis_Bayer_Haberkorn_1970_unspecified_product.fa > header_Eimeria_falciformis_Bayer_Haberkorn_1970_unspecified_product.fa
+		# ETH_00024465 Eimeria tenella strain Houghton hypothetical protein, conserved: Evalue= 7E-38
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' ETH_00024465.fa > Eimeria_tenella_strain_Houghton_hypothetical_protein.fa
+			awk '/^>/{print "> Eimeria_tenella_strain_Houghton_hypothetical_protein" ++i; next}{print} Eimeria_tenella_strain_Houghton_hypothetical_protein.fa > header_Eimeria_tenella_strain_Houghton_hypothetical_protein.fa
+		# EAH_00048570 Eimeria acervulina Houghton hypothetical protein, conserved: Evalue= 1E-36
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' EAH_00048570.fa > Eimeria_acervuline_Houghton_hypothetical_protein.fa
+			awk '/^>/{print "> Eimeria_acervuline_Houghton_hypothetical_protein" ++i; next}{print} Eimeria_acervuline_Houghton_hypothetical_protein.fa > header_Eimeria_acervuline_Houghton_hypothetical_protein.fa
+		# TGP89_418410 Toxoplasma gondii p89 nucleoside transporter: Evalue= 1E-35
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' TGP89_418410.fa > Toxoplasma_gondii_p89_nucleoside_transporter.fa
+			awk '/^>/{print "> Toxoplasma_gondii_p89_nucleoside_transporter " ++i; next}{print} Toxoplasma_gondii_p89_nucleoside_transporter.fa > header_Toxoplasma_gondii_p89_nucleoside_transporter.fa
+		# SRCN_4040 Sarcocystis neurona SO SN1 unspecified product : Evalue= 2E-29
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' SRCN_4040.fa > Sarcocystis-_neurona_SO_SN1_unspecified_product.fa
+			awk '/^>/{print "> Sarcocystis¬_neurona_SO_SN1_unspecified_product" ++i; next}{print} Sarcocystis¬_neurona_SO_SN1_unspecified_product.fa > header_Sarcocystis¬_neurona_SO_SN1_unspecified_product.fa
+		# LOC34618157 Cyclospora cayetanensis isolate NF1_C8 uncharacterized LOC34618157: Evalue= 9E-28
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' LOC34618157.fa > Cyclospora_cayetanensis_isolate_NF1_C8_uncharacterized_LOC34618157.fa
+			awk '/^>/{print "> Cyclospora_cayetanensis_isolate_NF1_C8_uncharacterized_LOC34618157" ++i; next}{print} Cyclospora_cayetanensis_isolate_NF1_C8_uncharacterized_LOC34618157.fa > header_Cyclospora_cayetanensis_isolate_NF1_C8_uncharacterized_LOC34618157.fa
+		# EAH_00020190 Eimeria acervulina Houghton adenosine transporter, putative: Evalue= 1E-23
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' EAH_00020190.fa > Eimeria_acervulina_Houghton_adenosine_transporter.fa
+			awk '/^>/{print "> Eimeria_acervulina_Houghton_adenosine_transporter" ++i; next}{print} Eimeria_acervulina_Houghton_adenosine_transporter.fa > header_Eimeria_acervulina_Houghton_adenosine_transporter.fa
