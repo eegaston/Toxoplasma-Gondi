@@ -237,3 +237,39 @@ Non-apicomplexan BLAST
 		# EBH_0062530 Eimeria brunetti Houghton hypothetical protein, conserved: Evalue= 2E-15
 			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' EBH_0062530.fa > Eimeria_brunetti_Houghton_hypothetical_protein.fa
 			awk '/^>/{print "> Eimeria_brunetti_Houghton_hypothetical_protein" ++i; next}{print} Eimeria_brunetti_Houghton_hypothetical_protein.fa > header_Eimeria_brunetti_Houghton_hypothetical_protein.fa
+  		# PVSEL_0500770 Plasmodium vinckei Cameroon EL Nucleoside transporter 1, putative : Evalue= 3E-15
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' PVSEL_0500770.fa > Plasmodium_vinckei_Cameroon_EL_Nucleoside_transporter_1.fa
+			awk '/^>/{print "> Plasmodium_vinckei_Cameroon_EL_Nucleoside_transporter_1" ++i; next}{print} Plasmodium_vinckei_Cameroon_EL_Nucleoside_transporter_1.fa > header_Plasmodium_vinckei_Cameroon_EL_Nucleoside_transporter_1.fa
+		# PVPCR_0500780 Plasmodium vinckei petteri CR 2020 Nucleoside transporter 1, putative : Evalue= 3E-15
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' PVPCR_0500780.fa > Plasmodium_vinckei_petteri_CR_2020_Nucleoside_transporter_1.fa
+			awk '/^>/{print "> Plasmodium_vinckei_petteri_CR_2020_Nucleoside_transporter_1" ++i; next}{print} Plasmodium_vinckei_petteri_CR_2020_Nucleoside_transporter_1.fa > header_Plasmodium_vinckei_petteri_CR_2020_Nucleoside_transporter_1.fa
+		# YYG_03197 Plasmodium vinckei petteri strain CR hypothetical protein: Evalue= 3E-15
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' YYG_03197.fa > Plasmodium_vinckei_petteri_strain_CR_hypothetical_protein.fa
+			awk '/^>/{print "> Plasmodium_vinckei_petteri_strain_CR_hypothetical_protein" ++i; next}{print} Plasmodium_vinckei_petteri_strain_CR_hypothetical_protein.fa > header_Plasmodium_vinckei_petteri_strain_CR_hypothetical_protein.fa
+		# PVLDE_1306780 Plasmodium vinckei lentum DE Nucleoside transporter 1, putative: Evalue= 3E-218E-15
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' PVLDE_1306780.fa > Plasmodium_vinckei_lentum_DE_Nucleoside_transporter_1.fa
+			awk '/^>/{print "> Plasmodium_vinckei_lentum_DE_Nucleoside_transporter_1" ++i; next}{print} Plasmodium_vinckei_lentum_DE_Nucleoside_transporter_1.fa > header_Plasmodium_vinckei_lentum_DE_Nucleoside_transporter_1.fa
+		# PY17X_1365800 Plasmodium yoelii yoelii 17X nucleoside transporter 1: Evalue= 2E-14
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' PY17X_1365800.fa > Plasmodium_yoelii_yoelii_17X_nucleoside_transporter_1.fa
+			awk '/^>/{print "> Plasmodium_yoelii_yoelii_17X_nucleoside_transporter_1" ++i; next}{print} Plasmodium_yoelii_yoelii_17X_nucleoside_transporter_1.fa > header_Plasmodium_yoelii_yoelii_17X_nucleoside_transporter_1.fa
+		# PYYM_1362200 Plasmodium yoelii yoelii YM nucleoside transporter 1 : Evalue= 2E-14
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' PYYM_1362200.fa > Plasmodium_yoelii_yoelii_YM_nucleoside_transporter_1.fa
+			awk '/^>/{print "> Plasmodium_yoelii_yoelii_YM_nucleoside_transporter_1" ++i; next}{print} Plasmodium_yoelii_yoelii_YM_nucleoside_transporter_1.fa > header_Plasmodium_yoelii_yoelii_YM_nucleoside_transporter_1.fa
+		# PVVCY_1306320 Plasmodium vinckei vinckei CY Nucleoside transporter 1, putative: Evalue= 4E-14
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' PVVCY_1306320.fa > Plasmodium_vinckei_vinckei_CY_Nucleoside_transporter_1.fa
+			awk '/^>/{print "> Plasmodium_yoelii_yoelii_YM_nucleoside_transporter_1" ++i; next}{print} Plasmodium_vinckei_vinckei_CY_Nucleoside_transporter_1.fa > header_Plasmodium_vinckei_vinckei_CY_Nucleoside_transporter_1.fa
+		# YYE_00618 Plasmodium vinckei vinckei strain vinckei hypothetical protein: Evalue= 4E-14
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' YYE_00618.fa > Plasmodium_vinckei_vinckei_strain_vinckei_hypothetical_protein.fa
+			awk '/^>/{print "> Plasmodium_vinckei_vinckei_strain_vinckei_hypothetical_protein" ++i; next}{print} Plasmodium_vinckei_vinckei_strain_vinckei_hypothetical_protein.fa > header_Plasmodium_vinckei_vinckei_strain_vinckei_hypothetical_protein.fa
+		# PBANKA_1360100 Plasmodium berghei ANKA nucleoside transporter 1: Evalue= 2E-13
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' PBANKA_1360100.fa > Plasmodium_berghei_ANKA_nucleoside_transporter_1.fa
+			awk '/^>/{print "> Plasmodium_berghei_ANKA_nucleoside_transporter_1" ++i; next}{print} Plasmodium_berghei_ANKA_nucleoside_transporter_1.fa > header_Plasmodium_berghei_ANKA_nucleoside_transporter_1.fa
+		# PocGH01_12015900 Plasmodium ovale curtisi GH01 nucleoside transporter 1, putative: Evalue= 2E-11
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' PocGH01_12015900.fa > Plasmodium_ovale_curtisi_GH01_nucleoside_transporter_1.fa
+			awk '/^>/{print "> Plasmodium_ovale_curtisi_GH01_nucleoside_transporter_1" ++i; next}{print} Plasmodium_ovale_curtisi_GH01_nucleoside_transporter_1.fa > header_Plasmodium_ovale_curtisi_GH01_nucleoside_transporter_1.fa
+		# PVBDA_1306550 Plasmodium vinckei brucechwatti DA Nucleoside transporter 1, putative: Evalue= 5E-11
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' PVBDA_1306550.fa > Plasmodium_vinckei_brucechwatti_DA_Nucleoside_transporter_1.fa
+			awk '/^>/{print "> Plasmodium_vinckei_brucechwatti_DA_Nucleoside_transporter_1" ++i; next}{print} Plasmodium_vinckei_brucechwatti_DA_Nucleoside_transporter_1.fa > header_Plasmodium_vinckei_brucechwatti_DA_Nucleoside_transporter_1.fa
+		# PmUG01_12017700 Plasmodium malariae UG01 nucleoside transporter 1, putative: Evalue= 7E-11
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' PmUG01_12017700.fa > Plasmodium_malariae_UG01_nucleoside_transporter_1.fa
+			awk '/^>/{print "> Plasmodium_malariae_UG01_nucleoside_transporter_1" ++i; next}{print} Plasmodium_malariae_UG01_nucleoside_transporter_1.fa > header_Plasmodium_malariae_UG01_nucleoside_transporter_1.fa
