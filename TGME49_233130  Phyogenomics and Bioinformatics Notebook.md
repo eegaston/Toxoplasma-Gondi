@@ -273,3 +273,12 @@ Non-apicomplexan BLAST
 		# PmUG01_12017700 Plasmodium malariae UG01 nucleoside transporter 1, putative: Evalue= 7E-11
 			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' PmUG01_12017700.fa > Plasmodium_malariae_UG01_nucleoside_transporter_1.fa
 			awk '/^>/{print "> Plasmodium_malariae_UG01_nucleoside_transporter_1" ++i; next}{print} Plasmodium_malariae_UG01_nucleoside_transporter_1.fa > header_Plasmodium_malariae_UG01_nucleoside_transporter_1.fa
+		# PRELSG_1250700 Plasmodium relictum SGS1-like nucleoside transporter 1, putative : Evalue= 2E-10
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' PRELSG_1250700.fa > Plasmodium_relictum_SGS1_like_nucleoside_transporter_1.fa
+			awk '/^>/{print ">Plasmodium_relictum_SGS1_like_nucleoside_transporter_1" ++i; next}{print} Plasmodium_relictum_SGS1_like_nucleoside_transporter_1.fa > header_Plasmodium_relictum_SGS1_like_nucleoside_transporter_1.fa
+		# PcyM_1209200 Plasmodium cynomolgi strain M nucleoside transporter 1, putative: Evalue= 5E-10
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' PcyM_1209200.fa > Plasmodium_cynomolgi_strain_M_nucleoside_transporter_1.fa
+			awk '/^>/{print "> Plasmodium_cynomolgi_strain_M_nucleoside_transporter_1" ++i; next}{print} Plasmodium_cynomolgi_strain_M_nucleoside_transporter_1.fa > header_Plasmodium_cynomolgi_strain_M_nucleoside_transporter_1.fa
+		# TM35_000161950 Trypanosoma theileri isolate Edinburgh nucleoside transporter-like : Evalue= 4E-6
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' TM35_000161950.fa > Trypanosoma_theileri_isolate_Edinburgh_nucleoside_transporter-like.fa
+			awk '/^>/{print "> Trypanosoma_theileri_isolate_Edinburgh_nucleoside_transporter-like" ++i; next}{print} Trypanosoma_theileri_isolate_Edinburgh_nucleoside_transporter-like.fa > header_Trypanosoma_theileri_isolate_Edinburgh_nucleoside_transporter-like.fa
