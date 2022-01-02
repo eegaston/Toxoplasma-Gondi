@@ -318,151 +318,65 @@
             # CNBB4510  | Cryptococcus neoformans var. neoformans B-3501A | unspecified product | protein | length=481   E-value= 4E-8
                   awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' CNBB4510.fa > CNBB4510_unspecified_product_protein.fa
                   awk '/^>/{print "> CNBB4510_unspecified_product_protein " ++i; next}{print}' CNBB4510_unspecified_product_protein.fa > header_CNBB4510_unspecified_product_protein.fa
-
-
-74.	>CKF44_03619  | Cryptococcus neoformans var. grubii KN99 | solute carrier family 29 (equilibrative nucleoside transporter), member 1/2/3 | protein | length=481   E-value =3E-7
-
-awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' CKF44_03619.fa > CKF44_03619_solute_carrier_family_29.fa
-
-
-awk '/^>/{print "> CKF44_03619_solute_carrier_family_29" ++i; next}{print}' CKF44_03619_solute_carrier_family_29.fa > header_CKF44_03619_solute_carrier_family_29.fa
-
-
-
-75.	>EDI_201740  | Entamoeba dispar SAW760 | equilibrative nucleoside transporter, putative | protein | length=407 E-value = 9E-7
-
-awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' EDI_201740.fa > EDI_201740_equilibrative_nucleoside_transporter_protein.fa
-
-
-awk '/^>/{print "> EDI_201740_equilibrative_nucleoside_transporter_protein" ++i; next}{print}' EDI_201740_equilibrative_nucleoside_transporter_protein.fa > header_EDI_201740_equilibrative_nucleoside_transporter_protein.fa
-
-
-
-76.	>HMPREF1544_00442  | Mucor circinelloides 1006PhL | hypothetical protein | protein | length=459   E-value = 2E-6
-
-awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' HMPREF1544_00442.fa > HMPREF1544_00442_hypothetical_protein.fa
-
-
-awk '/^>/{print "> HMPREF1544_00442_hypothetical_protein " ++i; next}{print}' HMPREF1544_00442_hypothetical_protein.fa > header_HMPREF1544_00442_hypothetical_protein.fa
-
-
-77.	>EMO_100150  | Entamoeba moshkovskii Laredo | nucleoside transporter, putative | protein | length=373 E-value=2E-6
-
-awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' EMO_100150.fa > EMO_100150_nucleoside_transporter_protein.fa
-
-awk '/^>/{print "> EMO_100150_nucleoside_transporter_protein" ++i; next}{print}' EMO_100150_nucleoside_transporter_protein.fa > header_EMO_100150_nucleoside_transporter_protein.fa
-
-
-
-78.	>HEP_00329700  | Hepatocystis sp. ex Piliocolobus tephrosceles 2019 | nucleoside transporter 1, putative | protein | length=444  E-value =3E-6
-
-awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' HEP_00329700.fa > HEP_00329700_nucleoside_transporter_1_protein.fa
-
-awk '/^>/{print "> HEP_00329700_nucleoside_transporter_1_protein" ++i; next}{print}' HEP_00329700_nucleoside_transporter_1_protein.fa > header_HEP_00329700_nucleoside_transporter_1_protein.fa
-
-
-79.	>GNI_170950  | Gregarina niphandrodes Unknown strain | putative transmembrane protein | protein | length=404 E-value = 3E-6
-
-awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' GNI_170950.fa > GNI_170950_putative_transmembrane_protein.fa
-
-awk '/^>/{print "> GNI_170950_putative_transmembrane_protein" ++i; next}{print}' GNI_170950_putative_transmembrane_protein.fa > header_GNI_170950_putative_transmembrane_protein.fa
-
-
-80.	>I306_06113  | Cryptococcus gattii EJB2 | solute carrier family 29 (equilibrative nucleoside transporter), member 1/2/3 | protein | length=485  E-value = 5E-6
-
-awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' I306_06113.fa > I306_06113_solute_carrier_family_29_protein.fa
-
-awk '/^>/{print ">I306_06113_solute_carrier_family_29_protein" ++i; next}{print}' I306_06113_solute_carrier_family_29_protein.fa > header_I306_06113_solute_carrier_family_29_protein.fa
-
-81.	>I311_04709  | Cryptococcus gattii NT-10 | solute carrier family 29 (equilibrative nucleoside transporter), member 1/2/3 | protein | length=485 E-value = 5E-6
-
-awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' I311_04709.fa > I311_04709_solute_carrier_family_29_protein.fa
-
-awk '/^>/{print ">I311_04709_solute_carrier_family_29_protein" ++i; next}{print}' I311_04709_solute_carrier_family_29_protein.fa > header_I311_04709_solute_carrier_family_29_protein.fa
-
-
-82.	>CGB_B6490W  | Cryptococcus gattii WM276 | nucleoside transporter | protein | length=485  E-value =5E-6
-
-awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' CGB_B6490W.fa > CGB_B6490W_nucleoside_transporter_protein.fa
-
-awk '/^>/{print ">CGB_B6490W_nucleoside_transporter_protein" ++i; next}{print}' CGB_B6490W_nucleoside_transporter_protein.fa > header_CGB_B6490W_nucleoside_transporter_protein.fa
-
-
-
-83.	>I308_05056  | Cryptococcus gattii VGIV IND107 | solute carrier family 29 (equilibrative nucleoside transporter), member 1/2/3 | protein | length=485 E-value = 8E-6
-
-awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' I308_05056.fa > I308_05056_solute_carrier_family_29.fa
-
-awk '/^>/{print ">I308_05056_solute_carrier_family_29" ++i; next}{print}' I308_05056_solute_carrier_family_29.fa > header_I308_05056_solute_carrier_family_29.fa
-
-
-84.	>I314_05422  | Cryptococcus gattii CA1873 | solute carrier family 29 (equilibrative nucleoside transporter), member 1/2/3 | protein | length=485   E-value =1E-5
-
-awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' I314_05422.fa > I314_05422_solute_carrier_family_29.fa
-
-awk '/^>/{print ">I314_05422_solute_carrier_family_29" ++i; next}{print}' I314_05422_solute_carrier_family_29.fa > header_I314_05422_solute_carrier_family_29.fa
-
-
-85.	>EHI_169580  | Entamoeba histolytica HM-1:IMSS | nucleoside transporter, putative | protein | length=379  E-value = 2E-5
-
-awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' EHI_169580.fa > EHI_169580_nucleoside_transporter_protein.fa
-
-awk '/^>/{print ">EHI_169580_nucleoside_transporter_protein" ++i; next}{print}' EHI_169580_nucleoside_transporter_protein.fa > header_EHI_169580_nucleoside_transporter_protein.fa
-
-86.	>PRELSG_1250700  | Plasmodium relictum SGS1-like | nucleoside transporter 1, putative | protein | length=410   E-value= 2E-5
-
-awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' PRELSG_1250700.fa > PRELSG_1250700_nucleoside_transporter_1_protein.fa
-
-awk '/^>/{print "> PRELSG_1250700_nucleoside_transporter_1_protein " ++i; next}{print}' PRELSG_1250700_nucleoside_transporter_1_protein.fa > header_PRELSG_1250700_nucleoside_transporter_1_protein.fa
-
-
-87.	>PVSEL_0500770  | Plasmodium vinckei Cameroon EL | Nucleoside transporter 1, putative [Source:UniProtKB/TrEMBL;Acc:A0A6V7SHU8] | protein | length=412   E-value = 2E-5
-
-awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' PVSEL_0500770.fa > PVSEL_0500770_nucleoside_transporter_1_protein.fa
-
-awk '/^>/{print "> PVSEL_0500770_nucleoside_transporter_1_protein" ++i; next}{print}' PVSEL_0500770_nucleoside_transporter_1_protein.fa > header_PVSEL_0500770_nucleoside_transporter_1_protein.fa
-
-
-88.	>EHI5A_037470  | Entamoeba histolytica KU27 | equilibrative nucleoside transporter, putative | protein | length=407  E-values= 3E-5
-
-awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' EHI5A_037470.fa > EHI5A_037470_equilibrative_nucleoside_transporter_protein.fa
-
-awk '/^>/{print ">EHI5A_037470_equilibrative_nucleoside_transporter_protein" ++i; next}{print}' EHI5A_037470_equilibrative_nucleoside_transporter_protein.fa > header_EHI5A_037470_equilibrative_nucleoside_transporter_protein.fa
-
-
-89.	>EHI7A_019250  | Entamoeba histolytica HM-1:IMSS-A | nucleoside transporter, putative | protein | length=407  E-value = 3E-5
-
-awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' EHI7A_019250.fa > EHI7A_019250_nucleoside_transporter_protein.fa
-
-awk '/^>/{print ">EHI7A_019250_nucleoside_transporter_protein" ++i; next}{print}' EHI7A_019250_nucleoside_transporter_protein.fa > header_EHI7A_019250_nucleoside_transporter_protein.fa
-
-
-
-90.	>EHI8A_016810  | Entamoeba histolytica HM-1:IMSS-B | nucleoside transporter, putative | protein | length=407  E-value = 3E-5
-
-awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' EHI8A_016810.fa > EHI8A_016810_nucleoside_transporter_protein.fa
-
-awk '/^>/{print ">EHI8A_016810_nucleoside_transporter_protein" ++i; next}{print}' EHI8A_016810_nucleoside_transporter_protein.fa > header_EHI8A_016810_nucleoside_transporter_protein.fa
-
-
-91.	>ENU1_024910  | Entamoeba nuttalli P19 | nucleoside transporter, putative | protein | length=407   E-value = 2E-5
-
-awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' ENU1_024910.fa > ENU1_024910_nucleoside_transporter_protein.fa
-
-awk '/^>/{print ">ENU1_024910_nucleoside_transporter_protein" ++i; next}{print}' ENU1_024910_nucleoside_transporter_protein.fa > header_ENU1_024910_nucleoside_transporter_protein.fa
-
-
-92.	>KM1_046940  | Entamoeba histolytica HM-3:IMSS | equilibrative nucleoside transporter, putative | protein | length=407  E-value= 3E-5
-
-awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' KM1_046940.fa > KM1_046940_equilibrative_nucleoside_transporter_protein.fa
-
-awk '/^>/{print ">KM1_046940_equilibrative_nucleoside_transporter_protein" ++i; next}{print}' KM1_046940_equilibrative_nucleoside_transporter_protein.fa > header_KM1_046940_equilibrative_nucleoside_transporter_protein.fa
-
-
-93.	>CPIJ006361  | Culex quinquefasciatus Johannesburg | Equilibrative nucleoside transporter [Source:UniProtKB/TrEMBL;Acc:B0WGR4] | protein | length=469   E-value =4E-5
-
-awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' CPIJ006361.fa > CPIJ006361_equilibrative_nucleoside_transporter_protein.fa
-
-awk '/^>/{print "> CPIJ006361_equilibrative_nucleoside_transporter_protein" ++i; next}{print}' CPIJ006361_equilibrative_nucleoside_transporter_protein.fa > header_CPIJ006361_equilibrative_nucleoside_transporter_protein.fa
+            # CKF44_03619  | Cryptococcus neoformans var. grubii KN99 | solute carrier family 29 (equilibrative nucleoside transporter), member 1/2/3 | protein | length=481   E-value =3E-7
+                  awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' CKF44_03619.fa > CKF44_03619_solute_carrier_family_29.fa
+                  awk '/^>/{print "> CKF44_03619_solute_carrier_family_29" ++i; next}{print}' CKF44_03619_solute_carrier_family_29.fa > header_CKF44_03619_solute_carrier_family_29.fa
+            # EDI_201740  | Entamoeba dispar SAW760 | equilibrative nucleoside transporter, putative | protein | length=407 E-value = 9E-7
+                  awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' EDI_201740.fa > EDI_201740_equilibrative_nucleoside_transporter_protein.fa
+                  awk '/^>/{print "> EDI_201740_equilibrative_nucleoside_transporter_protein" ++i; next}{print}' EDI_201740_equilibrative_nucleoside_transporter_protein.fa > header_EDI_201740_equilibrative_nucleoside_transporter_protein.fa
+            # HMPREF1544_00442  | Mucor circinelloides 1006PhL | hypothetical protein | protein | length=459   E-value = 2E-6
+                  awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' HMPREF1544_00442.fa > HMPREF1544_00442_hypothetical_protein.fa
+                  awk '/^>/{print "> HMPREF1544_00442_hypothetical_protein " ++i; next}{print}' HMPREF1544_00442_hypothetical_protein.fa > header_HMPREF1544_00442_hypothetical_protein.fa
+            # EMO_100150  | Entamoeba moshkovskii Laredo | nucleoside transporter, putative | protein | length=373 E-value=2E-6
+                  awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' EMO_100150.fa > EMO_100150_nucleoside_transporter_protein.fa
+                  awk '/^>/{print "> EMO_100150_nucleoside_transporter_protein" ++i; next}{print}' EMO_100150_nucleoside_transporter_protein.fa > header_EMO_100150_nucleoside_transporter_protein.fa
+            # HEP_00329700  | Hepatocystis sp. ex Piliocolobus tephrosceles 2019 | nucleoside transporter 1, putative | protein | length=444  E-value =3E-6
+                  awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' HEP_00329700.fa > HEP_00329700_nucleoside_transporter_1_protein.fa
+                  awk '/^>/{print "> HEP_00329700_nucleoside_transporter_1_protein" ++i; next}{print}' HEP_00329700_nucleoside_transporter_1_protein.fa > header_HEP_00329700_nucleoside_transporter_1_protein.fa
+            # GNI_170950  | Gregarina niphandrodes Unknown strain | putative transmembrane protein | protein | length=404 E-value = 3E-6
+                  awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' GNI_170950.fa > GNI_170950_putative_transmembrane_protein.fa
+                  awk '/^>/{print "> GNI_170950_putative_transmembrane_protein" ++i; next}{print}' GNI_170950_putative_transmembrane_protein.fa > header_GNI_170950_putative_transmembrane_protein.fa
+            # I306_06113  | Cryptococcus gattii EJB2 | solute carrier family 29 (equilibrative nucleoside transporter), member 1/2/3 | protein | length=485  E-value = 5E-6
+                  awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' I306_06113.fa > I306_06113_solute_carrier_family_29_protein.fa
+                  awk '/^>/{print ">I306_06113_solute_carrier_family_29_protein" ++i; next}{print}' I306_06113_solute_carrier_family_29_protein.fa > header_I306_06113_solute_carrier_family_29_protein.fa
+            # I311_04709  | Cryptococcus gattii NT-10 | solute carrier family 29 (equilibrative nucleoside transporter), member 1/2/3 | protein | length=485 E-value = 5E-6
+                  awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' I311_04709.fa > I311_04709_solute_carrier_family_29_protein.fa
+                  awk '/^>/{print ">I311_04709_solute_carrier_family_29_protein" ++i; next}{print}' I311_04709_solute_carrier_family_29_protein.fa > header_I311_04709_solute_carrier_family_29_protein.fa
+            # CGB_B6490W  | Cryptococcus gattii WM276 | nucleoside transporter | protein | length=485  E-value =5E-6
+                  awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' CGB_B6490W.fa > CGB_B6490W_nucleoside_transporter_protein.fa
+                  awk '/^>/{print ">CGB_B6490W_nucleoside_transporter_protein" ++i; next}{print}' CGB_B6490W_nucleoside_transporter_protein.fa > header_CGB_B6490W_nucleoside_transporter_protein.fa
+            # I308_05056  | Cryptococcus gattii VGIV IND107 | solute carrier family 29 (equilibrative nucleoside transporter), member 1/2/3 | protein | length=485 E-value = 8E-6
+                  awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' I308_05056.fa > I308_05056_solute_carrier_family_29.fa
+                  awk '/^>/{print ">I308_05056_solute_carrier_family_29" ++i; next}{print}' I308_05056_solute_carrier_family_29.fa > header_I308_05056_solute_carrier_family_29.fa
+            # I314_05422  | Cryptococcus gattii CA1873 | solute carrier family 29 (equilibrative nucleoside transporter), member 1/2/3 | protein | length=485   E-value =1E-5
+                  awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' I314_05422.fa > I314_05422_solute_carrier_family_29.fa
+                  awk '/^>/{print ">I314_05422_solute_carrier_family_29" ++i; next}{print}' I314_05422_solute_carrier_family_29.fa > header_I314_05422_solute_carrier_family_29.fa
+            # EHI_169580  | Entamoeba histolytica HM-1:IMSS | nucleoside transporter, putative | protein | length=379  E-value = 2E-5
+                  awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' EHI_169580.fa > EHI_169580_nucleoside_transporter_protein.fa
+                  awk '/^>/{print ">EHI_169580_nucleoside_transporter_protein" ++i; next}{print}' EHI_169580_nucleoside_transporter_protein.fa > header_EHI_169580_nucleoside_transporter_protein.fa
+            # PRELSG_1250700  | Plasmodium relictum SGS1-like | nucleoside transporter 1, putative | protein | length=410   E-value= 2E-5
+                  awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' PRELSG_1250700.fa > PRELSG_1250700_nucleoside_transporter_1_protein.fa
+                  awk '/^>/{print "> PRELSG_1250700_nucleoside_transporter_1_protein " ++i; next}{print}' PRELSG_1250700_nucleoside_transporter_1_protein.fa > header_PRELSG_1250700_nucleoside_transporter_1_protein.fa
+            # PVSEL_0500770  | Plasmodium vinckei Cameroon EL | Nucleoside transporter 1, putative [Source:UniProtKB/TrEMBL;Acc:A0A6V7SHU8] | protein | length=412   E-value = 2E-5
+                  awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' PVSEL_0500770.fa > PVSEL_0500770_nucleoside_transporter_1_protein.fa
+                  awk '/^>/{print "> PVSEL_0500770_nucleoside_transporter_1_protein" ++i; next}{print}' PVSEL_0500770_nucleoside_transporter_1_protein.fa > header_PVSEL_0500770_nucleoside_transporter_1_protein.fa
+            # EHI5A_037470  | Entamoeba histolytica KU27 | equilibrative nucleoside transporter, putative | protein | length=407  E-values= 3E-5
+                  awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' EHI5A_037470.fa > EHI5A_037470_equilibrative_nucleoside_transporter_protein.fa
+                  awk '/^>/{print ">EHI5A_037470_equilibrative_nucleoside_transporter_protein" ++i; next}{print}' EHI5A_037470_equilibrative_nucleoside_transporter_protein.fa > header_EHI5A_037470_equilibrative_nucleoside_transporter_protein.fa
+            # EHI7A_019250  | Entamoeba histolytica HM-1:IMSS-A | nucleoside transporter, putative | protein | length=407  E-value = 3E-5
+                  awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' EHI7A_019250.fa > EHI7A_019250_nucleoside_transporter_protein.fa
+                  awk '/^>/{print ">EHI7A_019250_nucleoside_transporter_protein" ++i; next}{print}' EHI7A_019250_nucleoside_transporter_protein.fa > header_EHI7A_019250_nucleoside_transporter_protein.fa
+            # EHI8A_016810  | Entamoeba histolytica HM-1:IMSS-B | nucleoside transporter, putative | protein | length=407  E-value = 3E-5
+                  awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' EHI8A_016810.fa > EHI8A_016810_nucleoside_transporter_protein.fa
+                  awk '/^>/{print ">EHI8A_016810_nucleoside_transporter_protein" ++i; next}{print}' EHI8A_016810_nucleoside_transporter_protein.fa > header_EHI8A_016810_nucleoside_transporter_protein.fa
+            # ENU1_024910  | Entamoeba nuttalli P19 | nucleoside transporter, putative | protein | length=407   E-value = 2E-5
+                  awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' ENU1_024910.fa > ENU1_024910_nucleoside_transporter_protein.fa
+                  awk '/^>/{print ">ENU1_024910_nucleoside_transporter_protein" ++i; next}{print}' ENU1_024910_nucleoside_transporter_protein.fa > header_ENU1_024910_nucleoside_transporter_protein.fa
+            # KM1_046940  | Entamoeba histolytica HM-3:IMSS | equilibrative nucleoside transporter, putative | protein | length=407  E-value= 3E-5
+                  awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' KM1_046940.fa > KM1_046940_equilibrative_nucleoside_transporter_protein.fa
+                  awk '/^>/{print ">KM1_046940_equilibrative_nucleoside_transporter_protein" ++i; next}{print}' KM1_046940_equilibrative_nucleoside_transporter_protein.fa > header_KM1_046940_equilibrative_nucleoside_transporter_protein.fa
+            # CPIJ006361  | Culex quinquefasciatus Johannesburg | Equilibrative nucleoside transporter [Source:UniProtKB/TrEMBL;Acc:B0WGR4] | protein | length=469   E-value =4E-5
+                  awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' CPIJ006361.fa > CPIJ006361_equilibrative_nucleoside_transporter_protein.fa
+                  awk '/^>/{print "> CPIJ006361_equilibrative_nucleoside_transporter_protein" ++i; next}{print}' CPIJ006361_equilibrative_nucleoside_transporter_protein.fa > header_CPIJ006361_equilibrative_nucleoside_transporter_protein.fa
 
 
