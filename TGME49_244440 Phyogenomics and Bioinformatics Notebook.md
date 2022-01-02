@@ -1,6 +1,7 @@
 #Examining the phylogenetic relationships between TGME49_244440(a nucleoside transporter protein) and other protozoan genes
 
 #Blast Analysis
+
       * TGRH88_028050  | Toxoplasma gondii RH-88 | nucleoside transporter protein| E-value = 0
       * HHA_244440  | Hammondia hammondi strain H.H.34 | nucleoside transporter protein |E-value = 0
       * NCLIV_019000  | Neospora caninum Liverpool | putative adenosine transporter |E-value = 0
