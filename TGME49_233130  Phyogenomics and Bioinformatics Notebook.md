@@ -288,8 +288,8 @@ Non-apicomplexan BLAST
 		# Tb427_000750400 Trypanosoma brucei Lister strain 427 2018 Nucleoside transporter, putative : Evalue= 9E-6
 			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' Tb427_000750400.fa > Trypanosoma_brucei_Lister_strain_427_2018_Nucleoside_transporter.fa
 			awk '/^>/{print "> Trypanosoma_brucei_Lister_strain_427_2018_Nucleoside_transporter" ++i; next}{print} Trypanosoma_brucei_Lister_strain_427_2018_Nucleoside_transporter.fa > header_Trypanosoma_brucei_Lister_strain_427_2018_Nucleoside_transporter.fa
-		# TevSTIB805.9.11320 Trypanosoma evansi strain STIB 805 nucleoside transporter 1, putative : Evalue= 1E-5
-			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' TevSTIB805.9.11320.fa > Trypanosoma_evansi_strain_STIB_805_nucleoside_transporter_1.fa
+		# TevSTIB805_9_11320 Trypanosoma evansi strain STIB 805 nucleoside transporter 1, putative : Evalue= 1E-5
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' TevSTIB805_9_11320.fa > Trypanosoma_evansi_strain_STIB_805_nucleoside_transporter_1.fa
 			awk '/^>/{print "> Trypanosoma_evansi_strain_STIB_805_nucleoside_transporter_1" ++i; next}{print} Trypanosoma_evansi_strain_STIB_805_nucleoside_transporter_1.fa > header_Trypanosoma_evansi_strain_STIB_805_nucleoside_transporter_1.fa
 		# Tb927.9.15980 Trypanosoma brucei brucei TREU927 nucleoside transporter 1, putative: Evalue= 1E-5
 			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' Tb927.9.15980.fa >Trypanosoma_brucei_brucei_TREU927_nucleoside_transporter_1.fa
