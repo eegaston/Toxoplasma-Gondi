@@ -282,8 +282,8 @@ Non-apicomplexan BLAST
 		# TM35_000161950 Trypanosoma theileri isolate Edinburgh nucleoside transporter-like : Evalue= 4E-6
 			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' TM35_000161950.fa > Trypanosoma_theileri_isolate_Edinburgh_nucleoside_transporter-like.fa
 			awk '/^>/{print "> Trypanosoma_theileri_isolate_Edinburgh_nucleoside_transporter-like" ++i; next}{print} Trypanosoma_theileri_isolate_Edinburgh_nucleoside_transporter-like.fa > header_Trypanosoma_theileri_isolate_Edinburgh_nucleoside_transporter-like.fa
-		# Tbg972.9.9940  Trypanosoma brucei gambiense DAL972 nucleoside transporter 1, putative : Evalue= 5E-6
-			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' Tbg972.9.9940.fa > Trypanosoma_brucei_gambiense_DAL972_nucleoside_transporter_1.fa
+		# Tbg972_9_9940  Trypanosoma brucei gambiense DAL972 nucleoside transporter 1, putative : Evalue= 5E-6
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' Tbg972_9_9940.fa > Trypanosoma_brucei_gambiense_DAL972_nucleoside_transporter_1.fa
 			awk '/^>/{print "> Trypanosoma_brucei_gambiense_DAL972_nucleoside_transporter_1" ++i; next}{print} Trypanosoma_brucei_gambiense_DAL972_nucleoside_transporter_1.fa > header_Trypanosoma_brucei_gambiense_DAL972_nucleoside_transporter_1.fa
 		# Tb427_000750400 Trypanosoma brucei Lister strain 427 2018 Nucleoside transporter, putative : Evalue= 9E-6
 			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' Tb427_000750400.fa > Trypanosoma_brucei_Lister_strain_427_2018_Nucleoside_transporter.fa
@@ -291,11 +291,11 @@ Non-apicomplexan BLAST
 		# TevSTIB805_9_11320 Trypanosoma evansi strain STIB 805 nucleoside transporter 1, putative : Evalue= 1E-5
 			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' TevSTIB805_9_11320.fa > Trypanosoma_evansi_strain_STIB_805_nucleoside_transporter_1.fa
 			awk '/^>/{print "> Trypanosoma_evansi_strain_STIB_805_nucleoside_transporter_1" ++i; next}{print} Trypanosoma_evansi_strain_STIB_805_nucleoside_transporter_1.fa > header_Trypanosoma_evansi_strain_STIB_805_nucleoside_transporter_1.fa
-		# Tb927.9.15980 Trypanosoma brucei brucei TREU927 nucleoside transporter 1, putative: Evalue= 1E-5
-			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' Tb927.9.15980.fa >Trypanosoma_brucei_brucei_TREU927_nucleoside_transporter_1.fa
+		# Tb927_9_15980 Trypanosoma brucei brucei TREU927 nucleoside transporter 1, putative: Evalue= 1E-5
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' Tb927_9_15980.fa >Trypanosoma_brucei_brucei_TREU927_nucleoside_transporter_1.fa
 			awk '/^>/{print "> Trypanosoma_brucei_brucei_TREU927_nucleoside_transporter_1" ++i; next}{print} Trypanosoma_brucei_brucei_TREU927_nucleoside_transporter_1.fa > header_Trypanosoma_brucei_brucei_TREU927_nucleoside_transporter_1.fa
-		# Tb09.v4.0106  Trypanosoma brucei brucei TREU927 nucleoside transporter 1, putative : Evalue= 2E-5
-			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' Tb09.v4.0106.fa > Trypanosoma_brucei_brucei_TREU927_nucleoside_transporter_1.fa
+		# Tb09_v4_0106  Trypanosoma brucei brucei TREU927 nucleoside transporter 1, putative : Evalue= 2E-5
+			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' Tb09_v4_0106.fa > Trypanosoma_brucei_brucei_TREU927_nucleoside_transporter_1.fa
 			awk '/^>/{print "> Trypanosoma_brucei_brucei_TREU927_nucleoside_transporter_1" ++i; next}{print} Trypanosoma_brucei_brucei_TREU927_nucleoside_transporter_1.fa > header_Trypanosoma_brucei_brucei_TREU927_nucleoside_transporter_1.fa
 		# Tb427_020032300 Trypanosoma brucei Lister strain 427 2018 Nucleoside transporter, putative: Evalue= 5E-5	
 			awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' Tb427_020032300.fa > Trypanosoma_brucei_Lister_strain_427_2018_Nucleoside_transporter.fa
