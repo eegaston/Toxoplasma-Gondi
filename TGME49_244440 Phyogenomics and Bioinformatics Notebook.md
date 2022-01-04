@@ -285,8 +285,8 @@
             # ChTU502y2012_387g0320  | Cryptosporidium hominis isolate TU502_2012 | nucleoside transporter family protein | protein | length=449  E-value=4E-11
                   awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' ChTU502y2012_387g0320.fa > ChTU502y2012_387g0320_nucleoside_transporter_family_protein.fa
                   awk '/^>/{print "> ChTU502y2012_387g0320_nucleoside_transporter_family_protein" ++i; next}{print}' ChTU502y2012_387g0320_nucleoside_transporter_family_protein.fa > header_ChTU502y2012_387g0320_nucleoside_transporter_family_protein.fa
-            # Chro.20039  | Cryptosporidium hominis TU502 | CG31911-PA | protein | length=449  E-value = 4E-11
-                  awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' Chro.20039.fa > Chro_20039_CG31911-PA_protein.fa
+            # Chro_20039  | Cryptosporidium hominis TU502 | CG31911-PA | protein | length=449  E-value = 4E-11
+                  awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' Chro_20039.fa > Chro_20039_CG31911-PA_protein.fa
                   awk '/^>/{print "> Chro_20039_CG31911-PA_protein" ++i; next}{print}' Chro_20039_CG31911-PA_protein.fa > header_Chro_20039_CG31911-PA_protein.fa
             # GY17_00003657  | Cryptosporidium hominis isolate 30976 | Equilibrative nucleoside transporter | protein | length=449   E-value =4E-11
                   awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' GY17_00003657.fa > GY17_00003657_Equilibrative_nucleoside_transporter_protein.fa
