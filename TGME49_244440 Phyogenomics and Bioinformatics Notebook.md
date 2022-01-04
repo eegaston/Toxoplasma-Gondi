@@ -246,8 +246,8 @@
             # EAH_00020190  | Eimeria acervulina Houghton | adenosine transporter, putative | protein | length=255  E-value = 4E-20
                   awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' EAH_00020190.fa > EAH_00020190_adenosine_transporter_protein.fa
                   awk '/^>/{print "> EAH_00020190_adenosine_transporter_protein" ++i; next}{print}' EAH_00020190_adenosine_transporter_protein.fa > header_EAH_00020190_adenosine_transporter_protein.fa
-            # EfaB_MINUS_56725.g2936  | Eimeria falciformis Bayer Haberkorn 1970 | unspecified product | protein | length=348 E-value = 4E-19
-                  awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' EfaB_MINUS_56725.g2936.fa > EfaB_MINUS_56725_g2936_product_protein.fa
+            # EfaB_MINUS_56725_g2936  | Eimeria falciformis Bayer Haberkorn 1970 | unspecified product | protein | length=348 E-value = 4E-19
+                  awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' EfaB_MINUS_56725_g2936.fa > EfaB_MINUS_56725_g2936_product_protein.fa
                   awk '/^>/{print "> EfaB_MINUS_56725_g2936_product_protein" ++i; next}{print}' EfaB_MINUS_56725_g2936_product_protein.fa > header_EfaB_MINUS_56725_g2936_product_protein.fa
             # EBH_0062530  | Eimeria brunetti Houghton | hypothetical protein, conserved | protein | length=642  E-value =3E-18
                   awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' EBH_0062530.fa > EBH_0062530_hypothetical_protein.fa
